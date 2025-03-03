@@ -1,548 +1,6 @@
 {
-  "common": {
-    "app": {
-      "name": "Little Storehouse",
-      "description": "Prédications de William Marrion Branham"
-    },
-    "settings": "Paramètres",
-    "william_marrion_branham": "William Marrion Branham",
-    "william_marrion_branham_shorter": "William Branham",
-    "life_date": "1909-1965",
-    "quote": {
-      "line": {
-        "1": "À aucun instant je n’apporte aux gens un message pour les pousser à me suivre ou à se rattacher à mon assemblée, ou à fonder un groupe, une organisation. Je n’ai jamais fait cela, et je ne le ferai pas maintenant. Je n’ai pas d’intérêt pour ces choses.",
-        "2": "J’ai, en revanche, un intérêt pour les choses de Dieu et pour les gens, et je serai satisfait si je peux réaliser une seule chose. Cette chose, c’est de voir s’établir une relation spirituelle véritable entre Dieu et les hommes, dans laquelle les hommes deviennent de nouvelles créatures en Christ, remplis de Son Esprit, et vivant selon Sa Parole. J’adresse à tous une invitation, un appel et un avertissement, pour que vous écoutiez Sa voix maintenant même, et que vous Lui abandonniez entièrement votre vie, comme je suis certain de Lui avoir abandonné tout ce que j’ai. Que Dieu vous bénisse, et que Sa venue réjouisse votre cœur."
-      },
-      "footer": "William Branham - Exposé des sept ages de l'Eglise: Résumé des ages"
-    },
-    "today": "Aujourd'hui",
-    "yesterday": "Hier",
-    "ok": "OK",
-    "something_went_wrong": "Désolé, il y'a erreur. Merci d'essayer plus tard",
-    "preview": "Aperçu",
-    "height": "Hauteur",
-    "width": "Largeur",
-    "landscape": "Paysage",
-    "portrait": "Portrait",
-    "no_results": "Aucun résultat",
-    "action": {
-      "cancel": "Annuler",
-      "clear": "Effacer",
-      "continue": "Continuer",
-      "delete": "Supprimer",
-      "reset": "Réinitialiser",
-      "retry": "Réessayer",
-      "save": "Sauvegarder"
-    }
-  },
-  "home": {
-    "search": "Recherche",
-    "sermons": "Prédications",
-    "about": "À propos"
-  },
-  "history": {
-    "title": "Historique",
-    "empty": "Votre historique est vide.",
-    "clean": {
-      "title": "Effacer tout l'historique ?",
-      "description": "Toutes les entrées de l'historique seront supprimées."
-    },
-    "row": {
-      "date": "Date",
-      "title": "Titre",
-      "last_opened": "Dernière ouverture",
-      "progress": "Progression",
-      "source": "Source",
-      "sources": {
-        "sermon_list": "Liste des sermons",
-        "search": "Recherche"
-      }
-    }
-  },
-  "notes": {
-    "empty": "La liste des notes est vide",
-    "new_note": "Nouvelle note",
-    "note": "Note",
-    "preview": "Aperçu de la note",
-    "sermon_notes": "Notes de sermons",
-    "title": "Notes",
-    "sermons_list": {
-      "notes_count": "Notes : {}",
-      "title": "Filtrage des notes"
-    }
-  },
-  "highlights": {
-    "colors": {
-      "title": "Couleurs",
-      "highlights_count": "Surlignages : {}, autres langues : {}",
-      "alert": {
-        "delete": {
-          "title": "Voulez-vous supprimer la couleur ?",
-          "desc": "Les surlignages associés seront également supprimés !"
-        },
-        "rename": {
-          "title": "Donnez un nom à la couleur",
-          "hint": "nom de la couleur"
-        }
-      }
-    },
-    "errors": {
-      "highlight_intercepts_other": "Le texte sélectionné chevauche d'autres surlignages. Veuillez choisir une autre sélection.",
-      "incomplete_initial_data": "Un problème est survenu. Si l'erreur persiste, rouvrez le sermon.",
-      "match_failed": "Un problème est survenu. Essayez de sélectionner un texte plus long ou plus court.",
-      "no_colors": "Ajoutez une couleur avant de surligner.",
-      "selected_text_is_not_unique": "Le texte sélectionné n'est pas unique dans la ligne. Essayez de sélectionner un texte plus long."
-    },
-    "list": {
-      "all": "Tout",
-      "empty": "La liste des surlignages est vide",
-      "sorting": {
-        "by_color_asc": "Trier par couleur asc",
-        "by_color_desc": "Trier par couleur desc"
-      }
-    },
-    "sermons_list": {
-      "highlights_count": "Surlignages : {}",
-      "title": "Filtrage des surlignages"
-    },
-    "picker": {
-      "title": "Sélectionnez une couleur"
-    },
-    "title": "Surlignages"
-  },
-  "languages": {
-    "not_selected": "La langue n'est pas sélectionnée",
-    "error_message": "Une erreur s'est produite : {}",
-    "update_available": "Mise à jour disponible, veuillez cliquer sur le bouton de mise à jour",
-    "list_item": {
-      "sermons_available": "Sermons disponibles : ",
-      "sermons_with_audios": "Sermons avec audios : "
-    },
-    "group": {
-      "available": "Disponible",
-      "downloaded": "Téléchargé",
-      "downloading": "Téléchargement",
-      "updateAvailable": "Mise à jour disponible"
-    },
-    "title": "Langues"
-  },
-  "sermons": {
-    "list": {
-      "row": {
-        "minutes": "{} minutes"
-      }
-    },
-    "select_translation_dialog_title": "Sélectionnez la traduction",
-    "filtering": {
-      "title": "Filtre",
-      "add_filter": "Ajouter un filtre",
-      "dropdown_hint": "Cliquez pour sélectionner une valeur",
-      "empty_view_title": "Pas de filtre",
-      "empty_view_subtitle": "Appuyez sur le bouton '+' pour ajouter un filtre",
-      "summary": {
-        "zero": "Aucun sermon",
-        "one": "1 sermon",
-        "other": "{} sermons"
-      },
-      "filter_types": {
-        "by_audible": "Selon la disponibilité audio",
-        "by_cities": "Par ville",
-        "by_countries": "Par pays",
-        "by_day_of_week": "Par jour de semaine",
-        "by_day": "Par jour",
-        "by_first_letter": "Par ordre alphabétique",
-        "by_location": "Par localisation",
-        "by_minutes": "Par durée",
-        "by_month": "Par mois",
-        "by_series": "Par série",
-        "by_state": "Par état",
-        "by_translator": "Par traducteur",
-        "by_year": "Par année"
-      },
-      "audible": {
-        "downloaded": "Téléchargé",
-        "with": "Avec audio",
-        "without": "Sans audio"
-      },
-      "daylights": {
-        "afternoon": "Après-midi",
-        "breakfast": "Petit-déjeuner",
-        "evening": "Soir",
-        "morning": "Matin",
-        "sunrise": "Aube",
-        "unknown": "Indeterminé"
-      },
-      "days": {
-        "monday": "Lun",
-        "tuesday": "Mar",
-        "wednesday": "Mer",
-        "thursday": "Jeu",
-        "friday": "Ven",
-        "saturday": "Sam",
-        "sunday": "Dim"
-      },
-      "monthes": {
-        "january": "Jan",
-        "february": "Fév",
-        "march": "Mar",
-        "april": "Avr",
-        "may": "Mai",
-        "june": "Juin",
-        "july": "Juil",
-        "august": "Aoû",
-        "september": "Sep",
-        "october": "Oct",
-        "november": "Nov",
-        "december": "Déc"
-      }
-    },
-    "settings": {
-      "open_lastest_position": "Toujours ouvrir les sermons à partir du début",
-      "show_original_title": "Afficher les titres originaux des sermons",
-      "sermon_list": {
-        "title": "Liste des prédications",
-        "date_formatting": "Mise en forme de la date du sermon",
-        "title_formatting": "Mise en forme du titre de la prédication"
-      },
-      "translations": {
-        "title": "Traductions",
-        "show_translations_dialog": "Afficher la boîte de dialogue 'Sélectionner les traductions'",
-        "preferable_translator": "Traduction préférable"
-      }
-    },
-    "title": "Prédications",
-    "filter_header": {
-      "one": "{} filtre appliqué",
-      "other": "{} filtres appliqués"
-    }
-  },
-  "search": {
-    "filtering": {
-      "title": "Filtre de recherche"
-    },
-    "find_all_words": "Tous les mots proposés",
-    "find_any_words": "L'un des mots proposés",
-    "find_exact_match": "Correspondance exacte",
-    "word_variation": "Variantes de mots",
-    "exact_words": "Mots exacts",
-    "hits": "{} nombre de résultats",
-    "results": "{} résultats",
-    "term_empty_content_hint": "Saisissez ci-dessus un terme de recherche",
-    "term_initial_content_hint": "Commencez en cliquant sur le bouton de recherche ci-dessus",
-    "term_text_field_hint": "Mot de recherche",
-    "title": "Recherche"
-  },
-  "sorting": {
-    "by_date_asc": "Trier par date asc",
-    "by_date_desc": "Trier par date desc",
-    "by_date": "Trier par date",
-    "by_default": "Tri par défaut",
-    "by_duration_asc": "Trier par durée asc",
-    "by_duration_desc": "Trier par durée desc",
-    "by_highlights_count_asc": "Trier par surlignages numéro asc",
-    "by_highlights_count_desc": "Trier par surlignages numéro desc",
-    "by_hits": "Trier par nombre de résultats",
-    "by_name_asc": "Trier par nom asc",
-    "by_name_desc": "Trier par nom desc",
-    "by_notes_count_asc": "Trier par nombre de notes asc",
-    "by_notes_count_desc": "Trier par nombre de notes desc",
-    "by_relevance": "Trier par pertinence",
-    "by_sermon_date_asc": "Trier par date de sermon asc",
-    "by_sermon_date_desc": "Trier par date de sermon desc",
-    "by_sermon_title_asc": "Trier par titre de sermon asc",
-    "by_sermon_title_desc": "Trier par titre de sermon desc",
-    "newest": "Le plus récent d'abord",
-    "oldest": "Le plus ancien en premier"
-  },
-  "reader": {
-    "original": "Original",
-    "end_of_sermon": "Fin de sermon",
-    "audio": {
-      "item_menu": "Audio #{}",
-      "download_audio": "Télécharger et jouer",
-      "stream_audio": "Audio en direct",
-      "already_playing_alert": "Cet audio est déjà en cours de lecture"
-    },
-    "context_menu": {
-      "highlight": "Surligner",
-      "share": "Partager",
-      "add_note": "Ajouter une note",
-      "copy": "Copier",
-      "copy_to_note": "Copier dans la note"
-    },
-    "settings": {
-      "app_bar": {
-        "title": "Barre de Navigation",
-        "button_visibility": {
-          "title": "Visibilité des Boutons",
-          "button": {
-            "audio": "Lire l'Audio",
-            "bookmark": "Créer un Signet",
-            "save_as": "Enregistrer sous",
-            "navigate": "Naviguer",
-            "search": "Rechercher",
-            "variants": "Variantes de Sermons",
-            "settings": "Paramètres"
-          }
-        }
-      },
-      "content_width": "Largeur du contenu",
-      "font_sample": "Or la foi est une substance des choses qu'on espère, une démonstration de celles qu'on ne voit pas",
-      "font_size": "Caractère par défaut",
-      "font": "Caractère",
-      "line_padding": "Espace entre les lignes",
-      "max": "max",
-      "min": "min",
-      "paragraph_padding": "Espace entre les paragraphes",
-      "sermon_layout": "Disposition du texte du sermon",
-      "system_font": "Police par défaut",
-      "switch_to_dark_mode": "Passer en mode sombre",
-      "switch_to_light_mode": "Passer en mode lumière",
-      "tap_to_hide": "Appuyez pour masquer",
-      "tap_to_show": "Appuyez pour afficher",
-      "text_indent": "Retrait du texte",
-      "theme": "Thème"
-    },
-    "share": {
-      "quote_from": "Citation de {}"
-    },
-    "select_paragraph": {
-      "title": "Sélectionnez un paragraphe"
-    }
-  },
-  "bookmarks": {
-    "title": "Favoris",
-    "name_placeholder": "Sans titre",
-    "empty": "La liste des Favoris est vide",
-    "created_message": "Le Favori a été créé",
-    "delete": {
-      "all": {
-        "confirmation": {
-          "title": "Voulez-vous supprimer tous les Favoris du sermon?",
-          "description": "Tous les Favoris seront supprimés, cette action ne peut être annulée"
-        }
-      }
-    },
-    "create": {
-      "dialog": {
-        "title": "Nouvelles notes",
-        "hint": "Entrez le nom du Favori"
-      }
-    }
-  },
-  "pdf": {
-    "save_as": {
-      "button": "Enregistrer sous",
-      "description": "Veuillez sélectionner un fichier de sortie :"
-    },
-    "components": {
-      "search": {
-        "header": "Résultats de recherche pour : {}"
-      }
-    },
-    "config": {
-      "title": "Configuration",
-      "page_format": "Format de page",
-      "generate": {
-        "html": "Générer HTML",
-        "pdf": "Générer PDF"
-      },
-      "other": {
-        "title": "Autres paramètres",
-        "add_footer": "Ajouter un pied de page",
-        "add_header": "Ajouter un en-tête",
-        "show_highlights": "Afficher les surlignages"
-      },
-      "footer": "Page {} - Little Storehouse",
-      "margin": {
-        "title": {
-          "page": "Marges de la page",
-          "paragraph": "Marges des paragraphes"
-        },
-        "top": "Haut",
-        "bottom": "Bas",
-        "left": "Gauche",
-        "right": "Droite",
-        "paragraph": "Paragraphes",
-        "lines": "Lignes"
-      }
-    }
-  },
-
-  "auth": {
-    "account": {
-      "title": "Compte",
-      "email": "Adresse e-mail: {}",
-      "info": "Vos surlignages, notes, favoris et historique de navigation sont synchronisés sur tous les appareils associés à votre compte.",
-      "delete": {
-        "title": "Supprimer le compte",
-        "alert": {
-          "title": "Supprimer le compte ?",
-          "desc": "Êtes-vous sûr(e) de vouloir supprimer votre compte ? Veuillez noter que toutes les données associées, y compris les surlignages, les notes, les signets et l'historique de navigation, seront supprimées de manière permanente et ne pourront pas être récupérées."
-        }
-      },
-      "sign_out": {
-        "title": "Se déconnecter",
-        "alert": {
-          "title": "Se déconnecter?",
-          "desc": "Êtes-vous sûr de vouloir vous déconnecter ? Veuillez choisir les appareils depuis lesquels vous souhaitez vous déconnecter."
-        }
-      }
-    },
-    "create_account": {
-      "info": "Le compte permet de synchroniser les surlignages, les notes, les signets et l'historique entre les appareils des autres utilisateurs.",
-      "supported_platform": "Quelles plateformes sont prises en charge?",
-      "title": "Créer un compte",
-      "validation": {
-        "email_empty": "L'e-mail ne peut pas être vide",
-        "email_incorrect": "L'e-mail est incorrect",
-        "password_empty": "Le mot de passe ne peut pas être vide",
-        "password_too_short": "Le mot de passe est trop court"
-      }
-    },
-    "form": {
-      "email": "E-mail",
-      "password": "Mot de passe (6 symboles au minimum)",
-      "new_password": "Nouveau mot de passe (6 symboles au minimum)",
-      "submit": "Créer un compte"
-    },
-    "reset_password": {
-      "title": "Réinitialisez votre mot de passe",
-      "error": {
-        "user_not_found": "Nous n'avons pas trouvé de compte associé à l'adresse e-mail que vous avez fournie. Veuillez vérifier votre e-mail et réessayer."
-      },
-      "form": {
-        "submit": "Envoyer le lien de réinitialisation",
-        "info": "Nous vous enverrons un lien pour réinitialiser votre mot de passe."
-      },
-      "completed": {
-        "info": {
-          "1": "* Votre nouveau lien de réinitialisation de mot de passe est en route.",
-          "2": "* Nous enverrons un e-mail à {}.",
-          "3": "* Suivez simplement les instructions dans l'e-mail pour réinitialiser votre mot de passe.",
-          "4": "* N'oubliez pas de vérifier votre dossier de courrier indésirable ou de spam si vous ne voyez pas l'e-mail dans votre boîte de réception."
-        },
-        "submit": "Retour à la page d'accès"
-      }
-    },
-    "sign_in": {
-      "title": "Se connecter",
-      "forgot_password": "Mot de passe oublié ?",
-      "migration": {
-        "title": "Associer les {} existants sur cet appareil à ce compte",
-        "components": {
-          "highlights": "surlignages",
-          "notes": "notes",
-          "bookmarks": "signets",
-          "history ": "historique"
-        }
-      },
-      "info": "En vous connectant à votre compte, vous pouvez synchroniser les surlignages, les notes, les favoris et l'historique sur plusieurs appareils associés à votre compte."
-    },
-    "errors": {
-      "general": "Quelque chose s'est mal passé. Si l'erreur persiste, veuillez réessayer dans quelques minutes.",
-      "sign_in": {
-        "incorrect_credentials": "Vous avez saisi un e-mail ou un mot de passe incorrect. Veuillez réessayer,"
-      },
-      "sign_up": {
-        "email_taken": "Il existe déjà un compte enregistré avec cette adresse e-mail."
-      }
-    }
-  },
-  "purchase": {
-    "error": {
-      "fetching": "Une erreur s'est produite et la liste des abonnements ne peut pas être récupérée pour le moment. Merci d'essayer plus tard.",
-      "purchasing": "Payement échoué"
-    },
-    "already_active": "Vous avez déjà un abonnement actif!",
-    "monthly_price": "{}/mois",
-    "terms_of_use": "Conditions d'utilisation",
-    "privacy_policy": "Politique de confidentialité",
-    "instruction": {
-      "1": {
-        "title": "Pour consulter et gérer votre abonnement:",
-        "android": {
-          "1": "1. Ouvrez l'application Paramètres de votre appareil et appuyez sur Google, puis sur Gérer votre compte Google.",
-          "2": "2. En haut, appuyez sur Paiements et abonnements.",
-          "3": "3. Appuyez sur Gérer les abonnements",
-          "4": "4. Pour voir plus de détails, sélectionnez un élément."
-        },
-        "iOS": {
-          "1": "Accédez aux Paramètres > [votre nom] > Abonnements.",
-          "2": "Effectuez l'une des opérations suivantes:",
-          "3": "Modifier un abonnement existant.",
-          "4": "Renouveler un abonnement expiré.",
-          "5": "Activez «Reçus des renouvellements»."
-        }
-      },
-      "2": {
-        "title": "Pour annuler un abonnement:",
-        "iOS": {
-          "2": "Appuyez sur un abonnement, puis sur Annuler l'abonnement ou Annuler tous les services."
-        }
-      }
-    }
-  },
-  "useful_links": {
-    "title": "Liens utiles",
-    "link": {
-      "1": {
-        "title": "Spoken Word in Pictures",
-        "desc": "Le Seigneur me conduit depuis plusieurs années à réaliser des citations en images tirées des sermons du Prophète et les partager sur le site internet \"Spoken Word in Pictures\".\nVotre frère, Mikaël"
-      }
-    }
-  },
-  "restore_purchases": {
-    "cta": "Restaurer les achats",
-    "success": {
-      "title": "Restauration réussie",
-      "desc": "Vos achats ont été restaurés avec succès. Vous pouvez maintenant accéder à vos abonnements."
-    },
-    "error": {
-      "failed": "Une erreur s'est produite lors de la restauration de vos achats. Veuillez réessayer plus tard.",
-      "unexpectedError": "Une erreur inattendue s'est produite. Veuillez réessayer.",
-      "no_subscriptions": "Aucun abonnement trouvé pour la restauration."
-    }
-  },
-  "guards": {
-    "account_migration": {
-      "title": "Migration de compte",
-      "info": {
-        "1": "Pour continuer à utiliser l'application, nous devons migrer votre compte et les données associées.",
-        "2": {
-          "a": "Veuillez entrer votre mot de passe actuel ou en créer un nouveau, puis appuyez sur 'Migrer'.",
-          "b": "Veuillez entrer votre email et votre mot de passe actuel, puis appuyez sur 'Migrer'."
-        },
-        "3": "Si vous avez déjà migré votre compte sur un autre appareil, utilisez plutôt 'Se connecter'.",
-        "4": "Si vous rencontrez des problèmes ou une perte de données pendant la migration, n'hésitez pas à me contacter par email pour obtenir de l'aide."
-      },
-      "cta": "Migrer",
-      "error": {
-        "migration_already_done": "Il semble que vous ayez déjà effectué la migration sur un autre appareil. Veuillez appuyer sur le bouton Réessayer, entrer votre mot de passe, puis appuyer sur le bouton Se connecter pour continuer."
-      },
-      "status": {
-        "success": {
-          "title": "Migration réussie",
-          "message": "Votre compte a été migré avec succès. Appuyez sur le bouton continuer pour commencer à utiliser l'application."
-        },
-        "failure": {
-          "title": "Échec de la migration"
-        },
-        "in_progress": {
-          "title": "Migration en cours",
-          "message": "Veuillez ne pas fermer l'application tant que la migration n'est pas terminée."
-        }
-      }
-    },
-    "force_upgrade": {
-      "title": "Mise à jour requise",
-      "description": "Pour continuer à utiliser Little Storehouse, veuillez mettre à jour vers la dernière version. Cette mise à jour inclut des améliorations importantes et de nouvelles fonctionnalités qui améliorent votre expérience.",
-      "cta": "Mettre à jour"
-    }
-  },
   "about": {
     "app_info": {
-      "menu": "À propos de l'application Little Storehouse",
       "line": {
         "1": "Little Storehouse est une collection de prédications de William Marrion Branham en plusieurs langues.",
         "2": "L'application propose un filtrage riche des prédications par date et de nombreux autres paramètres.",
@@ -550,15 +8,16 @@
         "4": "En plus du texte des sermons, des enregistrements audio des prédications sont disponibles.",
         "5": "Little Storehouse est un projet non commercial.",
         "6": "Il ne revendique aucun droit sur les textes de sermons ou les enregistrements audio utilisés dans l'application."
-      }
+      },
+      "menu": "À propos de l'application Little Storehouse"
     },
     "available_platforms": {
-      "title": "Plateformes prises en charge",
+      "additional_platforms": "L'application est également disponible pour d'autres types de systèmes d'exploitation.",
       "supported_platform": "L'application est disponible dans les magasins répertoriés ci-dessous :",
-      "additional_platforms": "L'application est également disponible pour d'autres types de systèmes d'exploitation."
+      "title": "Plateformes prises en charge"
     },
+    "contacts": "Contacts",
     "gratitudes": {
-      "title": "Remerciements",
       "line": {
         "1": {
           "a": "Rollin Nkalani",
@@ -616,33 +75,29 @@
           "a": "eagleword.online",
           "b": "Textes en tchèque et slovaque, audio en slovaque"
         }
-      }
+      },
+      "title": "Remerciements"
     },
-    "contacts": "Contacts",
     "project_support": {
       "cta": "Soutenez le projet",
+      "desc": "Soutenez notre projet avec un abonnement ! Vos contributions nous aident à maintenir et à améliorer l'application. Si vous préférez ne pas vous abonner, fermez simplement cet écran. Merci pour votre soutien!",
       "menu": "Soutien au projet",
-      "title": "Abonnement pour supporter le projet",
-      "desc": "Soutenez notre projet avec un abonnement ! Vos contributions nous aident à maintenir et à améliorer l'application. Si vous préférez ne pas vous abonner, fermez simplement cet écran. Merci pour votre soutien!"
+      "title": "Abonnement pour supporter le projet"
     }
   },
   "app_usage_tips": {
-    "menu": "Guide d'usage de l'Application",
-    "title": "Guide d'usage de l'Application",
     "group": {
       "1": {
-        "title": "Lecteur Audio",
         "tip": {
           "1": {
-            "title": "Comment restaurer le Lecteur Audio",
             "line": {
               "1": "Pour restaurer le Lecteur Audio:",
               "2": "1. Lorsque le lecteur est réduit et que le bouton 'Pause' apparaît dans le coin inférieur droit",
               "3": "2. Appuyez et maintenez enfoncé le bouton 'Pause' pour restaurer le lecteur audio."
-            }
+            },
+            "title": "Comment restaurer le Lecteur Audio"
           },
           "2": {
-            "title": "Comment supprimer l'audio téléchargé",
             "line": {
               "1": "L'audio téléchargé peut être supprimé de deux manières: en cliquant sur le bouton Supprimer dans le lecteur et en filtrant les sermons avec l'audio téléchargé.",
               "2": "Pour supprimer l'audio dans le Lecteur Audio:",
@@ -655,38 +110,38 @@
               "9": "4. Sélectionnez 'Téléchargé'",
               "10": "5. Appuyez sur le bouton 'Retour'",
               "11": "6. Vous pouvez désormais supprimer l'audio en appuyant sur les boutons 'Supprimer'"
-            }
+            },
+            "title": "Comment supprimer l'audio téléchargé"
           }
-        }
+        },
+        "title": "Lecteur Audio"
       },
       "2": {
-        "title": "Favoris",
         "tip": {
           "1": {
-            "title": "Comment ajouter un Favori avec un nom",
             "line": {
               "1": "Pour ajouter un Favori avec le nom:",
               "2": "1. Accédez à la page Sermon où vous souhaitez ajouter un Favori nommé.",
               "3": "2. Appuyez et maintenez enfoncé le bouton 'Ajouter un Favori'",
               "4": "3. Insérez le nom souhaité pour le Favori dans le champ de texte de la boîte de dialogue.",
               "5": "4. Appuyez sur le bouton 'Créer' pour finaliser l'ajout du Favori nommé."
-            }
+            },
+            "title": "Comment ajouter un Favori avec un nom"
           }
-        }
+        },
+        "title": "Favoris"
       },
       "3": {
-        "title": "Textes Surlignés",
         "tip": {
           "1": {
-            "title": "Comment modifier le texte surligné dans la page Sermon",
             "line": {
               "1": "Pour modifier le texte surligné sur la page Sermon, suivez ces étapes:",
               "2": "1. Appuyez sur le texte surligné que vous souhaitez modifier.",
               "3": "2. Dans la barre inférieure, vous pouvez changer/modifier la couleur, ajouter une nouvelle couleur ou supprimer le surlignage."
-            }
+            },
+            "title": "Comment modifier le texte surligné dans la page Sermon"
           },
           "2": {
-            "title": "Comment modifier la couleur",
             "line": {
               "1": "La modification des couleurs peut être effectuée de trois manières: via la barre inférieure Modifier le surlignage, la barre de navigation des couleurs ou la page Couleurs.",
               "2": "Pour modifier à partir de la barre inférieure Modifier le surlignage:",
@@ -701,67 +156,67 @@
               "11": "1. Appuyez sur la vignette Highlights sur la page d'accueil.",
               "12": "2. Appuyez sur le bouton Modifier les couleurs.",
               "13": "3. Vous pouvez modifier le titre ou la valeur d'une couleur, et également supprimer une couleur."
-            }
+            },
+            "title": "Comment modifier la couleur"
           },
           "3": {
-            "title": "Comment modifier un surlignage dans la liste des surlignages",
             "line": {
               "1": "Vous pouvez accéder à la barre inférieure Modifier les surlignages en appuyant longuement sur un élément de la liste des surlignages.",
               "2": "Pour modifier un surlignage:",
               "3": "1. Appuyez sur la vignette Highlights sur la page d'accueil.",
               "4": "2. Appuyez et maintenez un élément de la liste des faits saillants.",
               "5": "3. Modifiez ou supprimez la surbrillance à l'aide des options de la barre inférieure."
-            }
+            },
+            "title": "Comment modifier un surlignage dans la liste des surlignages"
           }
-        }
+        },
+        "title": "Textes Surlignés"
       },
       "4": {
-        "title": "Navigation",
         "tip": {
           "1": {
-            "title": "Comment redimensionner la vue fractionnée",
             "line": {
               "1": "La disposition la vue fractionnée est disponible pour les tablettes, offrant la possibilité de redimensionner les proportions de la la vue fractionnée.",
               "2": "Pour redimensionner la vue fractionnée:",
               "3": "1. Appuyez et maintenez la barre de division de la vue fractionnée.",
               "4": "2. Faites glisser vers la gauche ou la droite pour ajuster la taille.",
               "5": "Remarque: Il existe une taille minimale que la vue fractionnée peut avoir pour chaque côté."
-            }
+            },
+            "title": "Comment redimensionner la vue fractionnée"
           },
           "2": {
-            "title": "Comment fermer ou restaurer la vue fractionnée",
             "line": {
               "1": "La disposition de la vue fractionnée est disponible pour les tablettes, offrant la possibilité de fermer ou de restaurer chaque côté de la vue fractionnée.",
               "2": "Pour fermer le côté gauche ou droit de la vue fractionnée:",
               "3": "1. Appuyez sur le bouton de la vue fractionnée pour fermer le côté droit.",
               "4": "2. Appuyez à nouveau sur le bouton de la vue fractionnée pour basculer la visibilité des deux côtés.",
               "5": "3. Appuyez et maintenez enfoncé le bouton de la vue fractionnée pour restaurer la visibilité des deux côtés."
-            }
+            },
+            "title": "Comment fermer ou restaurer la vue fractionnée"
           }
-        }
+        },
+        "title": "Navigation"
       },
       "5": {
-        "title": "Notes",
         "tip": {
           "1": {
-            "title": "Comment ajouter une note à une ligne de sermon",
             "line": {
               "1": "Pour ajouter une note à une ligne de sermon:",
               "2": "1. Sélectionnez un texte dans la page Sermon",
               "3": "2. Sélectionnez 'Ajouter une note' dans le menu contextuel",
               "4": "3. Fournissez le contenu de la note et appuyez sur le bouton 'Enregistrer'"
-            }
+            },
+            "title": "Comment ajouter une note à une ligne de sermon"
           },
           "2": {
-            "title": "Comment ouvrir une note sur la page Sermon",
             "line": {
               "1": "Pour ouvrir une note sur la page Sermon:",
               "2": "1. Localisez une ligne de sermon avec une icône de note à la fin.",
               "3": "2. Appuyez sur l'icône de note pour ouvrir la vue d'aperçu de la note."
-            }
+            },
+            "title": "Comment ouvrir une note sur la page Sermon"
           },
           "3": {
-            "title": "Comment copier le texte sélectionné pour noter",
             "line": {
               "1": "pour copier le texte sélectionné dans une note:",
               "2": "1. Sélectionnez un texte dans la page du sermon",
@@ -769,57 +224,57 @@
               "4": "3. Sélectionnez ou créez une note",
               "5": "4. Fournir des modifications de note si nécessaire",
               "6": "5. Appuyez sur le bouton 'Enregistrer'"
-            }
+            },
+            "title": "Comment copier le texte sélectionné pour noter"
           }
-        }
+        },
+        "title": "Notes"
       },
       "6": {
-        "title": "Page de sermon",
         "tip": {
           "1": {
-            "title": "Comment ouvrir une traduction parallèle",
             "line": {
               "1": "Pour ouvrir une traduction parallèle:",
               "2": "1. Appuyez sur le bouton de traduction sur la page du sermon.",
               "3": "2. Appuyez et maintenez l'entrée Traduction.",
               "4": "3. (Facultatif) Appuyez et faites glisser la barre de séparation pour ajuster la taille des vues."
-            }
+            },
+            "title": "Comment ouvrir une traduction parallèle"
           },
           "2": {
-            "title": "Comment fermer une traduction parallèle",
             "line": {
               "1": "Pour fermer une traduction parallèle:",
               "2": "1. Appuyez et maintenez enfoncé le bouton Sermon vue fractionnée."
-            }
+            },
+            "title": "Comment fermer une traduction parallèle"
           },
           "3": {
-            "title": "Comment entrer/sortir du plein écran",
             "line": {
               "1": "Pour entrer ou sortir du plein écran:",
               "2": "1. Appuyez deux fois sur le texte du sermon."
-            }
+            },
+            "title": "Comment entrer/sortir du plein écran"
           }
-        }
+        },
+        "title": "Page de sermon"
       },
       "7": {
-        "title": "Liste des sermons",
         "tip": {
           "1": {
-            "title": "Comment ouvrir le sermon en dernière position",
             "line": {
               "1": "Pour avoir un sermon ouvert à la dernière position de lecture:",
               "2": "1. Appuyez sur le bouton Paramètres dans la liste des sermons.",
               "3": "2. Désactivez l'option 'Toujours ouvrir les sermons à la position de départ'.",
               "4": "3. Activez l'option permettant d'ouvrir les sermons à la position de départ."
-            }
+            },
+            "title": "Comment ouvrir le sermon en dernière position"
           }
-        }
+        },
+        "title": "Liste des sermons"
       },
       "8": {
-        "title": "Recherche",
         "tip": {
           "1": {
-            "title": "Comment copier un résultat de recherche",
             "line": {
               "1": "Pour copier le résultat de recherche dans le presse-papiers",
               "2": "1. Maintenez le doigt appuyé sur un résultat de recherche",
@@ -827,10 +282,554 @@
               "4": "Pour copier le résultat de recherche dans la note",
               "5": "1. Maintenez le doigt appuyé sur un résultat de recherche",
               "6": "2. Sélectionnez l'option 'Copier dans la note' dans le menu contextuel"
-            }
+            },
+            "title": "Comment copier un résultat de recherche"
           }
+        },
+        "title": "Recherche"
+      }
+    },
+    "menu": "Guide d'usage de l'Application",
+    "title": "Guide d'usage de l'Application"
+  },
+  "auth": {
+    "account": {
+      "delete": {
+        "alert": {
+          "desc": "Êtes-vous sûr(e) de vouloir supprimer votre compte ? Veuillez noter que toutes les données associées, y compris les surlignages, les notes, les signets et l'historique de navigation, seront supprimées de manière permanente et ne pourront pas être récupérées.",
+          "title": "Supprimer le compte ?"
+        },
+        "title": "Supprimer le compte"
+      },
+      "email": "Adresse e-mail: {}",
+      "info": "Vos surlignages, notes, favoris et historique de navigation sont synchronisés sur tous les appareils associés à votre compte.",
+      "sign_out": {
+        "alert": {
+          "desc": "Êtes-vous sûr de vouloir vous déconnecter ? Veuillez choisir les appareils depuis lesquels vous souhaitez vous déconnecter.",
+          "title": "Se déconnecter?"
+        },
+        "title": "Se déconnecter"
+      },
+      "title": "Compte"
+    },
+    "create_account": {
+      "info": "Le compte permet de synchroniser les surlignages, les notes, les signets et l'historique entre les appareils des autres utilisateurs.",
+      "supported_platform": "Quelles plateformes sont prises en charge?",
+      "title": "Créer un compte",
+      "validation": {
+        "email_empty": "L'e-mail ne peut pas être vide",
+        "email_incorrect": "L'e-mail est incorrect",
+        "password_empty": "Le mot de passe ne peut pas être vide",
+        "password_too_short": "Le mot de passe est trop court"
+      }
+    },
+    "errors": {
+      "general": "Quelque chose s'est mal passé. Si l'erreur persiste, veuillez réessayer dans quelques minutes.",
+      "sign_in": {
+        "incorrect_credentials": "Vous avez saisi un e-mail ou un mot de passe incorrect. Veuillez réessayer,"
+      },
+      "sign_up": {
+        "email_taken": "Il existe déjà un compte enregistré avec cette adresse e-mail."
+      }
+    },
+    "form": {
+      "email": "E-mail",
+      "new_password": "Nouveau mot de passe (6 symboles au minimum)",
+      "password": "Mot de passe (6 symboles au minimum)",
+      "submit": "Créer un compte"
+    },
+    "reset_password": {
+      "completed": {
+        "info": {
+          "1": "* Votre nouveau lien de réinitialisation de mot de passe est en route.",
+          "2": "* Nous enverrons un e-mail à {}.",
+          "3": "* Suivez simplement les instructions dans l'e-mail pour réinitialiser votre mot de passe.",
+          "4": "* N'oubliez pas de vérifier votre dossier de courrier indésirable ou de spam si vous ne voyez pas l'e-mail dans votre boîte de réception."
+        },
+        "submit": "Retour à la page d'accès"
+      },
+      "error": {
+        "user_not_found": "Nous n'avons pas trouvé de compte associé à l'adresse e-mail que vous avez fournie. Veuillez vérifier votre e-mail et réessayer."
+      },
+      "form": {
+        "info": "Nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+        "submit": "Envoyer le lien de réinitialisation"
+      },
+      "title": "Réinitialisez votre mot de passe"
+    },
+    "sign_in": {
+      "forgot_password": "Mot de passe oublié ?",
+      "info": "En vous connectant à votre compte, vous pouvez synchroniser les surlignages, les notes, les favoris et l'historique sur plusieurs appareils associés à votre compte.",
+      "migration": {
+        "components": {
+          "bookmarks": "signets",
+          "highlights": "surlignages",
+          "history ": "historique",
+          "notes": "notes"
+        },
+        "title": "Associer les {} existants sur cet appareil à ce compte"
+      },
+      "title": "Se connecter"
+    }
+  },
+  "bookmarks": {
+    "create": {
+      "dialog": {
+        "hint": "Entrez le nom du Favori",
+        "title": "Nouvelles notes"
+      }
+    },
+    "created_message": "Le Favori a été créé",
+    "delete": {
+      "all": {
+        "confirmation": {
+          "description": "Tous les Favoris seront supprimés, cette action ne peut être annulée",
+          "title": "Voulez-vous supprimer tous les Favoris du sermon?"
         }
       }
+    },
+    "empty": "La liste des Favoris est vide",
+    "name_placeholder": "Sans titre",
+    "title": "Favoris"
+  },
+  "common": {
+    "action": {
+      "cancel": "Annuler",
+      "clear": "Effacer",
+      "continue": "Continuer",
+      "delete": "Supprimer",
+      "reset": "Réinitialiser",
+      "retry": "Réessayer",
+      "save": "Sauvegarder"
+    },
+    "app": {
+      "description": "Prédications de William Marrion Branham",
+      "name": "Little Storehouse"
+    },
+    "height": "Hauteur",
+    "landscape": "Paysage",
+    "life_date": "1909-1965",
+    "no_results": "Aucun résultat",
+    "ok": "OK",
+    "portrait": "Portrait",
+    "preview": "Aperçu",
+    "quote": {
+      "footer": "William Branham - Exposé des sept ages de l'Eglise: Résumé des ages",
+      "line": {
+        "1": "À aucun instant je n’apporte aux gens un message pour les pousser à me suivre ou à se rattacher à mon assemblée, ou à fonder un groupe, une organisation. Je n’ai jamais fait cela, et je ne le ferai pas maintenant. Je n’ai pas d’intérêt pour ces choses.",
+        "2": "J’ai, en revanche, un intérêt pour les choses de Dieu et pour les gens, et je serai satisfait si je peux réaliser une seule chose. Cette chose, c’est de voir s’établir une relation spirituelle véritable entre Dieu et les hommes, dans laquelle les hommes deviennent de nouvelles créatures en Christ, remplis de Son Esprit, et vivant selon Sa Parole. J’adresse à tous une invitation, un appel et un avertissement, pour que vous écoutiez Sa voix maintenant même, et que vous Lui abandonniez entièrement votre vie, comme je suis certain de Lui avoir abandonné tout ce que j’ai. Que Dieu vous bénisse, et que Sa venue réjouisse votre cœur."
+      }
+    },
+    "settings": "Paramètres",
+    "something_went_wrong": "Désolé, il y'a erreur. Merci d'essayer plus tard",
+    "today": "Aujourd'hui",
+    "width": "Largeur",
+    "william_marrion_branham": "William Marrion Branham",
+    "william_marrion_branham_shorter": "William Branham",
+    "yesterday": "Hier"
+  },
+  "guards": {
+    "account_migration": {
+      "cta": "Migrer",
+      "error": {
+        "migration_already_done": "Il semble que vous ayez déjà effectué la migration sur un autre appareil. Veuillez appuyer sur le bouton Réessayer, entrer votre mot de passe, puis appuyer sur le bouton Se connecter pour continuer."
+      },
+      "info": {
+        "1": "Pour continuer à utiliser l'application, nous devons migrer votre compte et les données associées.",
+        "2": {
+          "a": "Veuillez entrer votre mot de passe actuel ou en créer un nouveau, puis appuyez sur 'Migrer'.",
+          "b": "Veuillez entrer votre email et votre mot de passe actuel, puis appuyez sur 'Migrer'."
+        },
+        "3": "Si vous avez déjà migré votre compte sur un autre appareil, utilisez plutôt 'Se connecter'.",
+        "4": "Si vous rencontrez des problèmes ou une perte de données pendant la migration, n'hésitez pas à me contacter par email pour obtenir de l'aide."
+      },
+      "status": {
+        "failure": {
+          "title": "Échec de la migration"
+        },
+        "in_progress": {
+          "message": "Veuillez ne pas fermer l'application tant que la migration n'est pas terminée.",
+          "title": "Migration en cours"
+        },
+        "success": {
+          "message": "Votre compte a été migré avec succès. Appuyez sur le bouton continuer pour commencer à utiliser l'application.",
+          "title": "Migration réussie"
+        }
+      },
+      "title": "Migration de compte"
+    },
+    "force_upgrade": {
+      "cta": "Mettre à jour",
+      "description": "Pour continuer à utiliser Little Storehouse, veuillez mettre à jour vers la dernière version. Cette mise à jour inclut des améliorations importantes et de nouvelles fonctionnalités qui améliorent votre expérience.",
+      "title": "Mise à jour requise"
     }
+  },
+  "highlights": {
+    "colors": {
+      "alert": {
+        "delete": {
+          "desc": "Les surlignages associés seront également supprimés !",
+          "title": "Voulez-vous supprimer la couleur ?"
+        },
+        "rename": {
+          "hint": "nom de la couleur",
+          "title": "Donnez un nom à la couleur"
+        }
+      },
+      "highlights_count": "Surlignages : {}, autres langues : {}",
+      "title": "Couleurs"
+    },
+    "errors": {
+      "highlight_intercepts_other": "Le texte sélectionné chevauche d'autres surlignages. Veuillez choisir une autre sélection.",
+      "incomplete_initial_data": "Un problème est survenu. Si l'erreur persiste, rouvrez le sermon.",
+      "match_failed": "Un problème est survenu. Essayez de sélectionner un texte plus long ou plus court.",
+      "no_colors": "Ajoutez une couleur avant de surligner.",
+      "selected_text_is_not_unique": "Le texte sélectionné n'est pas unique dans la ligne. Essayez de sélectionner un texte plus long."
+    },
+    "list": {
+      "all": "Tout",
+      "empty": "La liste des surlignages est vide",
+      "sorting": {
+        "by_color_asc": "Trier par couleur asc",
+        "by_color_desc": "Trier par couleur desc"
+      }
+    },
+    "picker": {
+      "title": "Sélectionnez une couleur"
+    },
+    "sermons_list": {
+      "highlights_count": "Surlignages : {}",
+      "title": "Filtrage des surlignages"
+    },
+    "title": "Surlignages"
+  },
+  "history": {
+    "clean": {
+      "description": "Toutes les entrées de l'historique seront supprimées.",
+      "title": "Effacer tout l'historique ?"
+    },
+    "empty": "Votre historique est vide.",
+    "row": {
+      "date": "Date",
+      "last_opened": "Dernière ouverture",
+      "progress": "Progression",
+      "source": "Source",
+      "sources": {
+        "search": "Recherche",
+        "sermon_list": "Liste des sermons"
+      },
+      "title": "Titre"
+    },
+    "title": "Historique"
+  },
+  "home": {
+    "about": "À propos",
+    "search": "Recherche",
+    "sermons": "Prédications"
+  },
+  "languages": {
+    "error_message": "Une erreur s'est produite : {}",
+    "group": {
+      "available": "Disponible",
+      "downloaded": "Téléchargé",
+      "downloading": "Téléchargement",
+      "updateAvailable": "Mise à jour disponible"
+    },
+    "list_item": {
+      "sermons_available": "Sermons disponibles : ",
+      "sermons_with_audios": "Sermons avec audios : "
+    },
+    "not_selected": "La langue n'est pas sélectionnée",
+    "title": "Langues",
+    "update_available": "Mise à jour disponible, veuillez cliquer sur le bouton de mise à jour"
+  },
+  "notes": {
+    "empty": "La liste des notes est vide",
+    "new_note": "Nouvelle note",
+    "note": "Note",
+    "preview": "Aperçu de la note",
+    "sermon_notes": "Notes de sermons",
+    "sermons_list": {
+      "notes_count": "Notes : {}",
+      "title": "Filtrage des notes"
+    },
+    "title": "Notes"
+  },
+  "pdf": {
+    "components": {
+      "search": {
+        "header": "Résultats de recherche pour : {}"
+      }
+    },
+    "config": {
+      "footer": "Page {} - Little Storehouse",
+      "generate": {
+        "html": "Générer HTML",
+        "pdf": "Générer PDF"
+      },
+      "margin": {
+        "bottom": "Bas",
+        "left": "Gauche",
+        "lines": "Lignes",
+        "paragraph": "Paragraphes",
+        "right": "Droite",
+        "title": {
+          "page": "Marges de la page",
+          "paragraph": "Marges des paragraphes"
+        },
+        "top": "Haut"
+      },
+      "other": {
+        "add_footer": "Ajouter un pied de page",
+        "add_header": "Ajouter un en-tête",
+        "show_highlights": "Afficher les surlignages",
+        "title": "Autres paramètres"
+      },
+      "page_format": "Format de page",
+      "title": "Configuration"
+    },
+    "save_as": {
+      "button": "Enregistrer sous",
+      "description": "Veuillez sélectionner un fichier de sortie :"
+    }
+  },
+  "purchase": {
+    "already_active": "Vous avez déjà un abonnement actif!",
+    "error": {
+      "fetching": "Une erreur s'est produite et la liste des abonnements ne peut pas être récupérée pour le moment. Merci d'essayer plus tard.",
+      "purchasing": "Payement échoué"
+    },
+    "instruction": {
+      "1": {
+        "android": {
+          "1": "1. Ouvrez l'application Paramètres de votre appareil et appuyez sur Google, puis sur Gérer votre compte Google.",
+          "2": "2. En haut, appuyez sur Paiements et abonnements.",
+          "3": "3. Appuyez sur Gérer les abonnements",
+          "4": "4. Pour voir plus de détails, sélectionnez un élément."
+        },
+        "iOS": {
+          "1": "Accédez aux Paramètres > [votre nom] > Abonnements.",
+          "2": "Effectuez l'une des opérations suivantes:",
+          "3": "Modifier un abonnement existant.",
+          "4": "Renouveler un abonnement expiré.",
+          "5": "Activez «Reçus des renouvellements»."
+        },
+        "title": "Pour consulter et gérer votre abonnement:"
+      },
+      "2": {
+        "iOS": {
+          "2": "Appuyez sur un abonnement, puis sur Annuler l'abonnement ou Annuler tous les services."
+        },
+        "title": "Pour annuler un abonnement:"
+      }
+    },
+    "monthly_price": "{}/mois",
+    "privacy_policy": "Politique de confidentialité",
+    "terms_of_use": "Conditions d'utilisation"
+  },
+  "reader": {
+    "audio": {
+      "already_playing_alert": "Cet audio est déjà en cours de lecture",
+      "download_audio": "Télécharger et jouer",
+      "item_menu": "Audio #{}",
+      "stream_audio": "Audio en direct"
+    },
+    "context_menu": {
+      "add_note": "Ajouter une note",
+      "copy": "Copier",
+      "copy_to_note": "Copier dans la note",
+      "highlight": "Surligner",
+      "share": "Partager"
+    },
+    "end_of_sermon": "Fin de sermon",
+    "original": "Original",
+    "select_paragraph": {
+      "title": "Sélectionnez un paragraphe"
+    },
+    "settings": {
+      "app_bar": {
+        "button_visibility": {
+          "button": {
+            "audio": "Lire l'Audio",
+            "bookmark": "Créer un Signet",
+            "navigate": "Naviguer",
+            "save_as": "Enregistrer sous",
+            "search": "Rechercher",
+            "settings": "Paramètres",
+            "variants": "Variantes de Sermons"
+          },
+          "title": "Visibilité des Boutons"
+        },
+        "title": "Barre de Navigation"
+      },
+      "content_width": "Largeur du contenu",
+      "font": "Caractère",
+      "font_sample": "Or la foi est une substance des choses qu'on espère, une démonstration de celles qu'on ne voit pas",
+      "font_size": "Caractère par défaut",
+      "line_padding": "Espace entre les lignes",
+      "max": "max",
+      "min": "min",
+      "paragraph_padding": "Espace entre les paragraphes",
+      "sermon_layout": "Disposition du texte du sermon",
+      "switch_to_dark_mode": "Passer en mode sombre",
+      "switch_to_light_mode": "Passer en mode lumière",
+      "system_font": "Police par défaut",
+      "tap_to_hide": "Appuyez pour masquer",
+      "tap_to_show": "Appuyez pour afficher",
+      "text_indent": "Retrait du texte",
+      "theme": "Thème"
+    },
+    "share": {
+      "quote_from": "Citation de {}"
+    }
+  },
+  "restore_purchases": {
+    "cta": "Restaurer les achats",
+    "error": {
+      "failed": "Une erreur s'est produite lors de la restauration de vos achats. Veuillez réessayer plus tard.",
+      "no_subscriptions": "Aucun abonnement trouvé pour la restauration.",
+      "unexpectedError": "Une erreur inattendue s'est produite. Veuillez réessayer."
+    },
+    "success": {
+      "desc": "Vos achats ont été restaurés avec succès. Vous pouvez maintenant accéder à vos abonnements.",
+      "title": "Restauration réussie"
+    }
+  },
+  "search": {
+    "exact_words": "Mots exacts",
+    "filtering": {
+      "title": "Filtre de recherche"
+    },
+    "find_all_words": "Tous les mots proposés",
+    "find_any_words": "L'un des mots proposés",
+    "find_exact_match": "Correspondance exacte",
+    "hits": "{} nombre de résultats",
+    "results": "{} résultats",
+    "term_empty_content_hint": "Saisissez ci-dessus un terme de recherche",
+    "term_initial_content_hint": "Commencez en cliquant sur le bouton de recherche ci-dessus",
+    "term_text_field_hint": "Mot de recherche",
+    "title": "Recherche",
+    "word_variation": "Variantes de mots"
+  },
+  "sermons": {
+    "filter_header": {
+      "one": "{} filtre appliqué",
+      "other": "{} filtres appliqués"
+    },
+    "filtering": {
+      "add_filter": "Ajouter un filtre",
+      "audible": {
+        "downloaded": "Téléchargé",
+        "with": "Avec audio",
+        "without": "Sans audio"
+      },
+      "daylights": {
+        "afternoon": "Après-midi",
+        "breakfast": "Petit-déjeuner",
+        "evening": "Soir",
+        "morning": "Matin",
+        "sunrise": "Aube",
+        "unknown": "Indeterminé"
+      },
+      "days": {
+        "friday": "Ven",
+        "monday": "Lun",
+        "saturday": "Sam",
+        "sunday": "Dim",
+        "thursday": "Jeu",
+        "tuesday": "Mar",
+        "wednesday": "Mer"
+      },
+      "dropdown_hint": "Cliquez pour sélectionner une valeur",
+      "empty_view_subtitle": "Appuyez sur le bouton '+' pour ajouter un filtre",
+      "empty_view_title": "Pas de filtre",
+      "filter_types": {
+        "by_audible": "Selon la disponibilité audio",
+        "by_cities": "Par ville",
+        "by_countries": "Par pays",
+        "by_day": "Par jour",
+        "by_day_of_week": "Par jour de semaine",
+        "by_first_letter": "Par ordre alphabétique",
+        "by_location": "Par localisation",
+        "by_minutes": "Par durée",
+        "by_month": "Par mois",
+        "by_series": "Par série",
+        "by_state": "Par état",
+        "by_translator": "Par traducteur",
+        "by_year": "Par année"
+      },
+      "monthes": {
+        "april": "Avr",
+        "august": "Aoû",
+        "december": "Déc",
+        "february": "Fév",
+        "january": "Jan",
+        "july": "Juil",
+        "june": "Juin",
+        "march": "Mar",
+        "may": "Mai",
+        "november": "Nov",
+        "october": "Oct",
+        "september": "Sep"
+      },
+      "summary": {
+        "one": "1 sermon",
+        "other": "{} sermons",
+        "zero": "Aucun sermon"
+      },
+      "title": "Filtre"
+    },
+    "list": {
+      "row": {
+        "minutes": "{} minutes"
+      }
+    },
+    "select_translation_dialog_title": "Sélectionnez la traduction",
+    "settings": {
+      "open_lastest_position": "Toujours ouvrir les sermons à partir du début",
+      "sermon_list": {
+        "date_formatting": "Mise en forme de la date du sermon",
+        "title": "Liste des prédications",
+        "title_formatting": "Mise en forme du titre de la prédication"
+      },
+      "show_original_title": "Afficher les titres originaux des sermons",
+      "translations": {
+        "preferable_translator": "Traduction préférable",
+        "show_translations_dialog": "Afficher la boîte de dialogue 'Sélectionner les traductions'",
+        "title": "Traductions"
+      }
+    },
+    "title": "Prédications"
+  },
+  "sorting": {
+    "by_date": "Trier par date",
+    "by_date_asc": "Trier par date asc",
+    "by_date_desc": "Trier par date desc",
+    "by_default": "Tri par défaut",
+    "by_duration_asc": "Trier par durée asc",
+    "by_duration_desc": "Trier par durée desc",
+    "by_highlights_count_asc": "Trier par surlignages numéro asc",
+    "by_highlights_count_desc": "Trier par surlignages numéro desc",
+    "by_hits": "Trier par nombre de résultats",
+    "by_name_asc": "Trier par nom asc",
+    "by_name_desc": "Trier par nom desc",
+    "by_notes_count_asc": "Trier par nombre de notes asc",
+    "by_notes_count_desc": "Trier par nombre de notes desc",
+    "by_relevance": "Trier par pertinence",
+    "by_sermon_date_asc": "Trier par date de sermon asc",
+    "by_sermon_date_desc": "Trier par date de sermon desc",
+    "by_sermon_title_asc": "Trier par titre de sermon asc",
+    "by_sermon_title_desc": "Trier par titre de sermon desc",
+    "newest": "Le plus récent d'abord",
+    "oldest": "Le plus ancien en premier"
+  },
+  "useful_links": {
+    "link": {
+      "1": {
+        "desc": "Le Seigneur me conduit depuis plusieurs années à réaliser des citations en images tirées des sermons du Prophète et les partager sur le site internet \"Spoken Word in Pictures\".\nVotre frère, Mikaël",
+        "title": "Spoken Word in Pictures"
+      }
+    },
+    "title": "Liens utiles"
   }
 }
