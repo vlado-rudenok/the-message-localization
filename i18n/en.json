@@ -1,0 +1,835 @@
+{
+  "common": {
+    "app": {
+      "name": "Little Storehouse",
+      "description": "Sermons by William Marrion Branham"
+    },
+    "settings": "Settings",
+    "william_marrion_branham": "William Marrion Branham",
+    "william_marrion_branham_shorter": "William Branham",
+    "life_date": "1909-1965",
+    "quote": {
+      "line": {
+        "1": "Not for one moment do I bring a message to the people that they may follow me, or join my church, or start some fellowship and organization. I have never done that and will not do that now.",
+        "2": "I have no interest in those things, but I do have an interest in the things of God and people, and if I can accomplish just one thing I will be satisfied. That one thing is to see established a true spiritual relationship between God and men, wherein men become new creations in Christ, filled with His Spirit and live according to His Word. I would invite, plead and warn all to hear His voice at this time, and yield your lives completely to Him, even as I trust in my heart that I have given my all to Him. God bless you, and may His coming rejoice your heart."
+      },
+      "footer": "William Branham - An Exposition of the Seven Church Ages: A resume of the ages"
+    },
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "ok": "OK",
+    "something_went_wrong": "Something went wrong. Please try again later.",
+    "preview": "Preview",
+    "height": "Height",
+    "width": "Width",
+    "landscape": "Landscape",
+    "portrait": "Portrait",
+    "no_results": "No results",
+    "action": {
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "continue": "Continue",
+      "delete": "Delete",
+      "reset": "Reset",
+      "retry": "Retry",
+      "save": "Save"
+    }
+  },
+  "home": {
+    "search": "Search",
+    "sermons": "Sermons",
+    "about": "About"
+  },
+  "history": {
+    "title": "History",
+    "empty": "Your history is empty.",
+    "clean": {
+      "title": "Clear All History?",
+      "description": "All history entries will be removed."
+    },
+    "row": {
+      "date": "Date",
+      "title": "Title",
+      "last_opened": "Last opened",
+      "progress": "Progress",
+      "source": "Source",
+      "sources": {
+        "sermon_list": "Sermons list",
+        "search": "Search"
+      }
+    }
+  },
+  "notes": {
+    "empty": "Notes list is empty",
+    "new_note": "New note",
+    "note": "Note",
+    "preview": "Note preview",
+    "sermon_notes": "Sermons notes",
+    "title": "Notes",
+    "sermons_list": {
+      "notes_count": "Notes: {}",
+      "title": "Notes filtering"
+    }
+  },
+  "highlights": {
+    "colors": {
+      "title": "Colors",
+      "highlights_count": "Highlights: {}, other languages: {}",
+      "alert": {
+        "delete": {
+          "title": "Do you want to delete the color?",
+          "desc": "Associated highlights will also be removed!"
+        },
+        "rename": {
+          "title": "Provide a name for the color",
+          "hint": "color name"
+        }
+      }
+    },
+    "errors": {
+      "highlight_intercepts_other": "Selected text overlaps other highlights. Please choose a different selection.",
+      "incomplete_initial_data": "Something went wrong. If the error persists, reopen the sermon.",
+      "match_failed": "Something went wrong. Try to select longer or shorter text.",
+      "no_colors": "Add a color before highlighting.",
+      "selected_text_is_not_unique": "Selected text is not unique in the line. Try to select longer text."
+    },
+    "list": {
+      "all": "All",
+      "empty": "Highlights list is empty",
+      "sorting": {
+        "by_color_asc": "Sort by color asc",
+        "by_color_desc": "Sort by color desc"
+      }
+    },
+    "sermons_list": {
+      "highlights_count": "Highlights: {}",
+      "title": "Highlights filtering"
+    },
+    "picker": {
+      "title": "Select a color"
+    },
+    "title": "Highlights"
+  },
+  "languages": {
+    "not_selected": "Language is not selected",
+    "error_message": "Error occurred: {}",
+    "update_available": "Update available, please click on update button",
+    "list_item": {
+      "sermons_available": "Available sermons: ",
+      "sermons_with_audios": "Sermons with audios: "
+    },
+    "group": {
+      "available": "Available",
+      "downloaded": "Downloaded",
+      "downloading": "Downloading",
+      "updateAvailable": "Update available"
+    },
+    "title": "Languages"
+  },
+  "sermons": {
+    "list": {
+      "row": {
+        "minutes": "{} minutes"
+      }
+    },
+    "select_translation_dialog_title": "Select translation",
+    "filtering": {
+      "title": "Filtering",
+      "add_filter": "Add filter",
+      "dropdown_hint": "Click to select a value",
+      "empty_view_title": "No filters",
+      "empty_view_subtitle": "Tap '+' button to add a filter",
+      "summary": {
+        "zero": "No sermons",
+        "one": "1 sermon",
+        "other": "{} sermons"
+      },
+      "filter_types": {
+        "by_audible": "By audio availability",
+        "by_cities": "By city",
+        "by_countries": "By country",
+        "by_day_of_week": "By day of week",
+        "by_day": "By day",
+        "by_first_letter": "By first letter",
+        "by_location": "By location",
+        "by_minutes": "By duration",
+        "by_month": "By month",
+        "by_series": "By series",
+        "by_state": "By state",
+        "by_translator": "By translator",
+        "by_year": "By year"
+      },
+      "audible": {
+        "downloaded": "Downloaded",
+        "with": "With audio",
+        "without": "Without audio"
+      },
+      "daylights": {
+        "afternoon": "Afternoon",
+        "breakfast": "Breakfast",
+        "evening": "Evening",
+        "morning": "Morning",
+        "sunrise": "Sunrise",
+        "unknown": "Unknown"
+      },
+      "days": {
+        "monday": "Mon",
+        "tuesday": "Tue",
+        "wednesday": "Wed",
+        "thursday": "Thr",
+        "friday": "Fri",
+        "saturday": "Sat",
+        "sunday": "Sun"
+      },
+      "monthes": {
+        "january": "Jan",
+        "february": "Feb",
+        "march": "Mar",
+        "april": "Apr",
+        "may": "May",
+        "june": "Jun",
+        "july": "Jul",
+        "august": "Aug",
+        "september": "Sep",
+        "october": "Oct",
+        "november": "Nov",
+        "december": "Dec"
+      }
+    },
+    "settings": {
+      "open_lastest_position": "Always open sermons at start position",
+      "show_original_title": "Show original sermons titles",
+      "sermon_list": {
+        "title": "Sermon list",
+        "date_formatting": "Sermon date formatting",
+        "title_formatting": "Sermon title formatting"
+      },
+      "translations": {
+        "title": "Translations",
+        "show_translations_dialog": "Show 'Select translations' dialog",
+        "preferable_translator": "Preferable translation"
+      }
+    },
+    "title": "Sermons",
+    "filter_header": {
+      "one": "{} filter is applied",
+      "other": "{} filters are applied"
+    }
+  },
+  "search": {
+    "filtering": {
+      "title": "Search filtering"
+    },
+    "find_all_words": "All provided words",
+    "find_any_words": "At least one of provided words",
+    "find_exact_match": "Exact phrase match",
+    "word_variation": "Word Variations",
+    "exact_words": "Exact Words",
+    "hits": "{} hits",
+    "results": "{} results",
+    "term_empty_content_hint": "Enter a search term above",
+    "term_initial_content_hint": "Start by clicking on search button above",
+    "term_text_field_hint": "Search term",
+    "title": "Search"
+  },
+  "sorting": {
+    "by_date_asc": "Sort by date asc",
+    "by_date_desc": "Sort by date desc",
+    "by_date": "Sort by date",
+    "by_default": "Default sorting",
+    "by_duration_asc": "Sort by duration asc",
+    "by_duration_desc": "Sort by duration desc",
+    "by_highlights_count_asc": "Sort by highlights count asc",
+    "by_highlights_count_desc": "Sort by highlights count desc",
+    "by_hits": "Sort by hits",
+    "by_name_asc": "Sort by name asc",
+    "by_name_desc": "Sort by name desc",
+    "by_notes_count_asc": "Sort by notes count asc",
+    "by_notes_count_desc": "Sort by notes count desc",
+    "by_relevance": "Sort by relevance",
+    "by_sermon_date_asc": "Sort by sermon date asc",
+    "by_sermon_date_desc": "Sort by sermon date desc",
+    "by_sermon_title_asc": "Sort by sermon title asc",
+    "by_sermon_title_desc": "Sort by sermon title desc",
+    "newest": "Newest first",
+    "oldest": "Oldest first"
+  },
+  "reader": {
+    "original": "Original",
+    "end_of_sermon": "End of sermon",
+    "audio": {
+      "item_menu": "Audio #{}",
+      "download_audio": "Download and play",
+      "stream_audio": "Stream audio",
+      "already_playing_alert": "This audio is already playing"
+    },
+    "context_menu": {
+      "highlight": "Highlight",
+      "share": "Share",
+      "add_note": "Add note",
+      "copy": "Copy",
+      "copy_to_note": "Copy to note"
+    },
+    "settings": {
+      "app_bar": {
+        "title": "Navigation Bar",
+        "button_visibility": {
+          "title": "Buttons visibility",
+          "button": {
+            "audio": "Play audio",
+            "bookmark": "Create bookmark",
+            "save_as": "Save as",
+            "navigate": "Navigation",
+            "search": "Search",
+            "variants": "Sermon variants",
+            "settings": "Settings"
+          }
+        }
+      },
+      "content_width": "Content width",
+      "font_sample": "Now faith is the substance of things hoped for, the evidence of things not seen.",
+      "font_size": "Font size",
+      "font": "Font",
+      "line_padding": "Space between lines",
+      "max": "max",
+      "min": "min",
+      "paragraph_padding": "Space between paragraphs",
+      "sermon_layout": "Sermon text layout",
+      "system_font": "Default font",
+      "switch_to_dark_mode": "Switch to dark mode",
+      "switch_to_light_mode": "Switch to light mode",
+      "tap_to_hide": "Tap to hide",
+      "tap_to_show": "Tap to show",
+      "text_indent": "Text indent",
+      "theme": "Theme"
+    },
+    "share": {
+      "quote_from": "Quote from {}"
+    },
+    "select_paragraph": {
+      "title": "Select a paragraph"
+    }
+  },
+  "bookmarks": {
+    "title": "Bookmarks",
+    "name_placeholder": "Untitled",
+    "empty": "Bookmarks list is empty",
+    "created_message": "Bookmark was created",
+    "delete": {
+      "all": {
+        "confirmation": {
+          "title": "Do you want to remove all bookmark for the sermon?",
+          "description": "All bookmarks will be deleted, this action cannot be undone"
+        }
+      }
+    },
+    "create": {
+      "dialog": {
+        "title": "New bookmark",
+        "hint": "Enter bookmark name"
+      }
+    }
+  },
+  "pdf": {
+    "save_as": {
+      "button": "Save as",
+      "description": "Please select an output file:"
+    },
+    "components": {
+      "search": {
+        "header": "Search results for: {}"
+      }
+    },
+    "config": {
+      "title": "Configuration",
+      "page_format": "Page format",
+      "generate": {
+        "html": "Generate HTML",
+        "pdf": "Generate PDF"
+      },
+      "other": {
+        "title": "Other settings",
+        "add_footer": "Add footer",
+        "add_header": "Add header",
+        "show_highlights": "Show highlights"
+      },
+      "footer": "Page {} - Little Storehouse",
+      "margin": {
+        "title": {
+          "page": "Page margins",
+          "paragraph": "Paragraph margins"
+        },
+        "top": "Top",
+        "bottom": "Bottom",
+        "left": "Left",
+        "right": "Right",
+        "paragraph": "Paragraphs",
+        "lines": "Lines"
+      }
+    }
+  },
+  "auth": {
+    "account": {
+      "title": "Account",
+      "email": "Email: {}",
+      "info": "Your highlights, notes, bookmarks and browsing history are synchronized across devices associated with your account.",
+      "delete": {
+        "title": "Delete account",
+        "alert": {
+          "title": "Delete account?",
+          "desc": "Are you sure you want to delete your account? Please note that all associated data, including highlights, notes, bookmarks, and browsing history, will be permanently removed and cannot be recovered."
+        }
+      },
+      "sign_out": {
+        "title": "Sign out",
+        "alert": {
+          "title": "Sign out?",
+          "desc": "Are you sure you want to sign out? Please choose the devices you'd like to sign out from."
+        }
+      }
+    },
+    "create_account": {
+      "info": "By creating an account, you can synchronize highlights, notes, bookmarks, and browsing history across multiple devices associated with your account.",
+      "supported_platform": "What platforms are supported?",
+      "title": "Create account",
+      "validation": {
+        "email_empty": "Email cannot be empty",
+        "email_incorrect": "Invalid email format. Please enter a valid email address",
+        "password_empty": "Password cannot be empty",
+        "password_too_short": "Password is too short. Please enter a password that is at least 6 characters long."
+      }
+    },
+    "form": {
+      "email": "Enter you email",
+      "password": "Enter your password",
+      "new_password": "Enter new password",
+      "submit": "Create account"
+    },
+    "reset_password": {
+      "title": "Reset your password",
+      "error": {
+        "user_not_found": "We couldn't find an account associated with the email address you provided. Please double-check your email and try again."
+      },
+      "form": {
+        "submit": "Send reset link",
+        "info": "We'll email you a link to reset your password."
+      },
+      "completed": {
+        "info": {
+          "1": "* Your new password reset link is on its way.",
+          "2": "* We’ll send an email to {}.",
+          "3": "* Simply follow the instructions in the email to reset your password.",
+          "4": "* Remember to check your junk or spam folder if you don't see the email in your inbox."
+        },
+        "submit": "Back to Sign In"
+      }
+    },
+    "sign_in": {
+      "title": "Sign in",
+      "forgot_password": "Forgot your password?",
+      "migration": {
+        "title": "Associate existing {} on this device with this account",
+        "components": {
+          "highlights": "highlights",
+          "notes": "notes",
+          "bookmarks": "bookmarks",
+          "history ": "browsing history "
+        }
+      },
+      "info": "By signing in to your account, you will synchronize your highlights, notes, bookmarks, and browsing history across all devices associated with your account."
+    },
+    "errors": {
+      "general": "Something went wrong. If the error persists, please try again in a few minutes.",
+      "sign_in": {
+        "incorrect_credentials": "You've entered the wrong email or password. Check for typos and try again."
+      },
+      "sign_up": {
+        "email_taken": "There is already an account registered with this email address."
+      }
+    }
+  },
+  "purchase": {
+    "error": {
+      "fetching": "Something went wrong and subscriptions list cannot be fetched right now. Please try later.",
+      "purchasing": "Purchase failed."
+    },
+    "already_active": "You already have an active subscription!",
+    "monthly_price": "{}/month",
+    "terms_of_use": "Terms of use",
+    "privacy_policy": "Privacy policy",
+    "instruction": {
+      "1": {
+        "title": "To view and manage your subscription:",
+        "android": {
+          "1": "1. Open your device's Settings app and tap Google and then Manage your Google Account.",
+          "2": "2. At the top, tap Payments & subscriptions.",
+          "3": "3. Tap Manage subscriptions.",
+          "4": "4. To see more details, select an item."
+        },
+        "iOS": {
+          "1": "Go to Settings > [your name] > Subscriptions.",
+          "2": "Do any of the following:",
+          "3": "Change an existing subscription.",
+          "4": "Renew an expired subscription.",
+          "5": "Turn on Renewal Receipts."
+        }
+      },
+      "2": {
+        "title": "To cancel a subscription:",
+        "iOS": {
+          "2": "Tap a subscription, then tap Cancel Subscription or Cancel All Services."
+        }
+      }
+    }
+  },
+  "useful_links": {
+    "title": "Useful links",
+    "link": {
+      "1": {
+        "title": "Spoken Word in Pictures",
+        "desc": "The Lord has led me for several years to create quotations in images from the Prophet's sermons and share them on the website \"Spoken Word in Pictures\".\nYour Brother, Mikaël"
+      }
+    }
+  },
+  "restore_purchases": {
+    "cta": "Restore Purchases",
+    "success": {
+      "title": "Restore Successful",
+      "desc": "Your purchases have been successfully restored. You can now access your subscriptions."
+    },
+    "error": {
+      "failed": "An error occurred while restoring your purchases. Please try again later.",
+      "unexpectedError": "An unexpected error occurred. Please try again.",
+      "no_subscriptions": "No subscriptions found to restore."
+    }
+  },
+  "guards": {
+    "account_migration": {
+      "title": "Account Migration",
+      "info": {
+        "1": "To continue using the app, we need to migrate your account and related data.",
+        "2": {
+          "a": "Please enter your current password or create a new one, then tap 'Migrate'.",
+          "b": "Please enter your email and your current password, then tap 'Migrate'."
+        },
+        "3": "If you have already migrated your account on another device, use 'Sign in' instead.",
+        "4": "If you experience any issues or data loss during the migration, please reach out via email for assistance."
+      },
+      "cta": "Migrate",
+      "error": {
+        "migration_already_done": "It seems you’ve already completed the migration on another device. Please tap the Retry button, provide your password, and then tap the Sign In button to continue."
+      },
+      "status": {
+        "success": {
+          "title": "Migration Successful",
+          "message": "Your account has been successfully migrated. Tap the continue button to start using the app."
+        },
+        "failure": {
+          "title": "Migration Failed"
+        },
+        "in_progress": {
+          "title": "Migration in Progress",
+          "message": "Please do not close the app until the migration is complete."
+        }
+      }
+    },
+    "force_upgrade": {
+      "title": "Update Required",
+      "description": "To continue using Little Storehouse, please update to the latest version. This update includes important improvements and new features that enhance your experience.",
+      "cta": "Update"
+    }
+  },
+  "about": {
+    "app_info": {
+      "menu": "About Little Storehouse app",
+      "line": {
+        "1": "Little Storehouse is a collection of sermons by William Marrion Branham in various languages.",
+        "2": "The application offers rich filtering of sermons by date and many other parameters.",
+        "3": "A full text search of all sermons is also available.",
+        "4": "Along with the text of the sermons, audio recordings of the sermons are available.",
+        "5": "Little Storehouse is a non-commercial project.",
+        "6": "It does not claim any rights to the texts of sermons or audio recordings used in the application."
+      }
+    },
+    "available_platforms": {
+      "title": "Available Platforms",
+      "supported_platform": "The app is available on the following stores:",
+      "additional_platforms": "The app is also available for other types of operating systems."
+    },
+    "gratitudes": {
+      "title": "Gratitudes",
+      "line": {
+        "1": {
+          "a": "Rollin Nkalani",
+          "b": "French sermons dataset"
+        },
+        "2": {
+          "a": "Boanerges Mbamvu",
+          "b": "French app translation, ideas, testing, motivation"
+        },
+        "3": {
+          "a": "Godson PEYA ESSONGA",
+          "b": "French app translation, ideas, testing"
+        },
+        "4": {
+          "a": "Rostislav Kuzmenko",
+          "b": "Help prepare sermons in Russian"
+        },
+        "5": {
+          "a": "Mateusz Warzybok",
+          "b": "Help prepare sermons in Polish"
+        },
+        "6": {
+          "a": "Marek Szturc",
+          "b": "Help prepare sermons in Czech"
+        },
+        "7": {
+          "a": "Ľuboš Horník",
+          "b": "Help prepare sermons in Slovak"
+        },
+        "8": {
+          "a": "branham.org",
+          "b": "English texts and audio, sermon texts and audio in various languages"
+        },
+        "9": {
+          "a": "branham.fr",
+          "b": "French texts and audio"
+        },
+        "10": {
+          "a": "messagehub.info",
+          "b": "Sermon texts and audio in different languages"
+        },
+        "11": {
+          "a": "sluchaj.branham.pl",
+          "b": "Polish audio"
+        },
+        "12": {
+          "a": "branham.ru",
+          "b": "Russian texts and audio"
+        },
+        "13": {
+          "a": "shekinahgospel.org/shekinah-pub",
+          "b": "French texts"
+        },
+        "14": {
+          "a": "eagleword.online",
+          "b": "Czech and Slovak texts, Slovak audio"
+        }
+      }
+    },
+    "contacts": "Contacts",
+    "project_support": {
+      "cta": "Support the Project",
+      "menu": "Project Support",
+      "title": "Project Support Subscription",
+      "desc": "Support our project with a subscription! Your contributions help us maintain and improve the app. If you prefer not to subscribe, simply close this screen. Thank you for your support!"
+    }
+  },
+  "app_usage_tips": {
+    "menu": "App Usage Tips",
+    "title": "App Usage Tips",
+    "group": {
+      "1": {
+        "title": "Audio Player",
+        "tip": {
+          "1": {
+            "title": "How to Restore the Audio Player",
+            "line": {
+              "1": "To restore the Audio Player:",
+              "2": "1. When the player is minimized and the 'Pause' button appears in the bottom right corner",
+              "3": "2. Press and hold the 'Pause' button to restore the audio player."
+            }
+          },
+          "2": {
+            "title": "How to delete downloaded audio",
+            "line": {
+              "1": "Downloaded audio can be deleted in two ways: by clicking on delete button in player and by filtering sermons with downloaded audio.",
+              "2": "To delete audio in Audio Player:",
+              "3": "1. Start audio player in sermon page",
+              "4": "2. Tap on delete button (if available)",
+              "5": "To delete audio in Sermons List: ",
+              "6": "1. Tap on 'Filters' button",
+              "7": "2. Tap on 'Add' button",
+              "8": "3. Select 'By audio availability'",
+              "9": "4. Select 'Downloaded'",
+              "10": "5. Tap 'Back' button",
+              "11": "6. Now you are able to delete audio by tapping on 'Delete' buttons"
+            }
+          }
+        }
+      },
+      "2": {
+        "title": "Bookmarks",
+        "tip": {
+          "1": {
+            "title": "How to add bookmark with name",
+            "line": {
+              "1": "To add bookmark with name:",
+              "2": "1. Navigate to the Sermon page where you want to add a named bookmark.",
+              "3": "2. Press and hold the 'Add Bookmark' button.",
+              "4": "3. Enter the desired name for the bookmark in the dialog text field.",
+              "5": "4. Tap on the 'Create' button to finalize the addition of the named bookmark."
+            }
+          }
+        }
+      },
+      "3": {
+        "title": "Highlights",
+        "tip": {
+          "1": {
+            "title": "How to edit highlighted text in Sermon Page",
+            "line": {
+              "1": "To edit highlighted text on the Sermon page, follow these steps:",
+              "2": "1. Tap on the highlighted text you wish to edit.",
+              "3": "2. On the bottom bar, you can change/edit the color, add a new color, or delete the highlighting."
+            }
+          },
+          "2": {
+            "title": "How to edit color",
+            "line": {
+              "1": "Color editing can be done in three ways: via the Edit Highlight bottom bar, the Colors Navigation bar, or the Colors page.",
+              "2": "To edit from the Edit Highlight bottom bar:",
+              "3": "1. Tap on the selected text in the Sermon page or press and hold on a highlighted item in the Highlights list.",
+              "4": "2. Press and hold on the Color tile.",
+              "5": "3. Select a new color value and tap on the 'Save' button.",
+              "6": "To edit from the Colors Navigation bar:",
+              "7": "1. Tap on the Highlights tile on the Home page.",
+              "8": "2. Press and hold on the Color tile on the Colors Navigation bar.",
+              "9": "3. Select a new color value and tap on the 'Save' button.",
+              "10": "To edit from the Colors page:",
+              "11": "1. Tap on the Highlights tile on the Home page.",
+              "12": "2. Tap on the Edit Colors button.",
+              "13": "3. You can change a color's title or value, and also delete a color."
+            }
+          },
+          "3": {
+            "title": "How to edit a highlight in Highlight List",
+            "line": {
+              "1": "You can access the Edit Highlight bottom bar by pressing and holding on a Highlights List item.",
+              "2": "To edit a highlight:",
+              "3": "1. Tap on the Highlights tile on the Home page.",
+              "4": "2. Press and hold a Highlights List item.",
+              "5": "3. Edit or remove the highlight using the options in the bottom bar."
+            }
+          }
+        }
+      },
+      "4": {
+        "title": "Navigation",
+        "tip": {
+          "1": {
+            "title": "How to resize Split View",
+            "line": {
+              "1": "The Split View layout is available for tablets, providing the possibility to resize the proportions of the Split View.",
+              "2": "To resize Split View:",
+              "3": "1. Press and hold the Split View dividing bar.",
+              "4": "2. Drag left or right to adjust the size.",
+              "5": "Note: There is a minimum size that the Split View can have for each side."
+            }
+          },
+          "2": {
+            "title": "How to close or restore Split View",
+            "line": {
+              "1": "The Split View layout is available for tablets, providing the option to close or restore each side of the Split View.",
+              "2": "To close the left or right side of the Split View:",
+              "3": "1. Tap the Split View button to close the right side.",
+              "4": "2. Tap the Split View button again to toggle the visibility of both sides.",
+              "5": "3. Press and hold the Split View button to restore the visibility of both sides."
+            }
+          }
+        }
+      },
+      "5": {
+        "title": "Notes",
+        "tip": {
+          "1": {
+            "title": "How to add note to a sermon line",
+            "line": {
+              "1": "To add note to a sermon line:",
+              "2": "1. Select a text in Sermon page",
+              "3": "2. Select 'Add note' in context menu",
+              "4": "3. Provide note content and tap 'Save' button"
+            }
+          },
+          "2": {
+            "title": "How to open note on Sermon Page",
+            "line": {
+              "1": "To open a note on the Sermon Page:",
+              "2": "1. Locate a sermon line with a note icon at the end.",
+              "3": "2. Tap on the note icon to open the note preview view."
+            }
+          },
+          "3": {
+            "title": "How to copy selected text to note",
+            "line": {
+              "1": "To copy selected text into a note:",
+              "2": "1. Select a text in Sermon page",
+              "3": "2. Select 'Copy to note' in context menu",
+              "4": "3. Select or create a note",
+              "5": "4. Provide changes in note if needed",
+              "6": "5. Tap on 'Save' button"
+            }
+          }
+        }
+      },
+      "6": {
+        "title": "Sermon Page",
+        "tip": {
+          "1": {
+            "title": "How to open a parallel translation",
+            "line": {
+              "1": "To open a parallel translation:",
+              "2": "1. Tap on the translation button on the Sermon Page.",
+              "3": "2. Press and hold the Translation entry.",
+              "4": "3. (Optionally) Press and drag the dividing bar to adjust the size of the views."
+            }
+          },
+          "2": {
+            "title": "How to close a parallel translation",
+            "line": {
+              "1": "To close a parallel translation:",
+              "2": "1. Press and hold the Sermon Split View button."
+            }
+          },
+          "3": {
+            "title": "How to enter / exit fullscreen",
+            "line": {
+              "1": "To enter or exit fullscreen:",
+              "2": "1. Double-tap on the sermon text."
+            }
+          }
+        }
+      },
+      "7": {
+        "title": "Sermons List",
+        "tip": {
+          "1": {
+            "title": "How to open sermon on last position",
+            "line": {
+              "1": "To have a sermon open at the last read position:",
+              "2": "1. Tap on the Settings button in the Sermons List.",
+              "3": "2. Turn off the 'Always open sermons at start position' option.",
+              "4": "3. Turn on the option to open sermons at the start position."
+            }
+          }
+        }
+      },
+      "8": {
+        "title": "Search",
+        "tip": {
+          "1": {
+            "title": "How to copy a search result",
+            "line": {
+              "1": "To copy search result to clipboard",
+              "2": "1. Long press on a search result",
+              "3": "2. Select 'Copy' option in context menu",
+              "4": "To copy search result to note",
+              "5": "1. Long press on a search result",
+              "6": "2. Select 'Copy to note' option in context menu"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,835 @@
+{
+  "common": {
+    "app": {
+      "name": "Little Storehouse",
+      "description": "Kazania Williama Marriona Branhama"
+    },
+    "settings": "Ustawienia",
+    "william_marrion_branham": "William Marrion Branham",
+    "william_marrion_branham_shorter": "William Branham",
+    "life_date": "1909-1965",
+    "quote": {
+      "line": {
+        "1": "Ani na chwilę nie przynoszę tego poselstwa do ludzi w tym celu, aby mnie naśladowali, albo przyłączyli się do mego kościoła, albo założyli jakieś towarzystwo, albo organizację. Nigdy tego nie czyniłem, a nie będę tego czynił obecnie. Nie interesuję się tymi sprawami...",
+        "2": "Ale interesują mnie sprawy Boże oraz ludzie, a gdybym mógł osiągnąć tylko jedną rzecz, będę zadowol ony. Tą rzeczą jest oglądać ugruntowany i prawdziwy duchowy stosunek między Bogiem i ludźmi, w którym ludzie stają się nowym stworzeniem w Chrystusie, są napełnieni Jego Duchem i żyją zgodnie z Jego Słowem. Chciałbym wszystkich zaprosić, błagać i ostrzec, aby słuchali Jego głosu w tym czasie, i wydali całkowicie swoje życie Jemu, podobnie jak ja ufam w moim sercu, że oddałem Jemu wszystko, co mam. Niech was Bóg błogosławi, a niechaj Jego przyjście sprawi radość waszym sercom."
+      },
+      "footer": "William Branham - Wykład Siedmiu Wieków Kościoła - Strona 344"
+    },
+    "today": "Dziś",
+    "yesterday": "Wczoraj",
+    "ok": "OK",
+    "something_went_wrong": "Coś poszło nie tak. Proszę spróbować później",
+    "preview": "Podgląd",
+    "height": "Wysokość",
+    "width": "Szerokość",
+    "landscape": "Poziomo",
+    "portrait": "Pionowo",
+    "no_results": "Brak wyników",
+    "action": {
+      "cancel": "Anuluj",
+      "clear": "Wyczyść",
+      "continue": "Kontynuj",
+      "delete": "Ususń",
+      "reset": "Resetuj",
+      "retry": "Spróbuj ponownie",
+      "save": "Zapisz"
+    }
+  },
+  "home": {
+    "search": "Wyszukiwarka",
+    "sermons": "Kazania",
+    "about": "O aplikacji"
+  },
+  "history": {
+    "title": "Historia",
+    "empty": "Twoja historia jest pusta.",
+    "clean": {
+      "title": "Wyczyścić całą historię?",
+      "description": "Wszystkie wpisy w historii zostaną usunięte."
+    },
+    "row": {
+      "date": "Data",
+      "title": "Tytuł",
+      "last_opened": "Ostatnio otwarte",
+      "progress": "Postęp",
+      "source": "Źródło",
+      "sources": {
+        "sermon_list": "Lista kazań",
+        "search": "Szukaj"
+      }
+    }
+  },
+  "notes": {
+    "empty": "Lista notatek jest pusta",
+    "new_note": "Nowa notatka",
+    "note": "Notatka",
+    "preview": "Podgląd notatki",
+    "sermon_notes": "Notatki z kazań",
+    "title": "Notatki",
+    "sermons_list": {
+      "notes_count": "Notatki: {}",
+      "title": "Filtrowanie notatek"
+    }
+  },
+  "highlights": {
+    "colors": {
+      "title": "Kolory",
+      "highlights_count": "Podkreślenia: {}, inne języki: {}",
+      "alert": {
+        "delete": {
+          "title": "Czy chcesz usunąć kolor?",
+          "desc": "Powiązane podkreślenia również zostaną usunięte!"
+        },
+        "rename": {
+          "title": "Podaj nazwę koloru",
+          "hint": "nazwa koloru"
+        }
+      }
+    },
+    "errors": {
+      "highlight_intercepts_other": "Wybrany tekst nachodzi na inne zaznaczenia. Proszę wybrać inny fragment.",
+      "incomplete_initial_data": "Coś poszło nie tak. Jeśli błąd się powtarza, ponownie otwórz kazanie.",
+      "match_failed": "Coś poszło nie tak. Spróbuj zaznaczyć dłuższy lub krótszy tekst.",
+      "no_colors": "Dodaj kolor przed zaznaczeniem.",
+      "selected_text_is_not_unique": "Wybrany tekst nie jest unikalny w linii. Spróbuj zaznaczyć dłuższy tekst."
+    },
+    "list": {
+      "all": "Wszystko",
+      "empty": "Lista zaznaczeń jest pusta",
+      "sorting": {
+        "by_color_asc": "Według koloru rosnąco",
+        "by_color_desc": "Według koloru malejąco"
+      }
+    },
+    "sermons_list": {
+      "highlights_count": "Zaznaczenia: {}",
+      "title": "Filtrowanie zaznaczeń"
+    },
+    "picker": {
+      "title": "Wybierz kolor"
+    },
+    "title": "Zaznaczenia"
+  },
+  "languages": {
+    "not_selected": "Język nie został wybrany",
+    "error_message": "Wystąpił błąd: {}",
+    "update_available": "Dostępna aktualizacja, kliknij przycisk aktualizacji",
+    "list_item": {
+      "sermons_available": "Dostępne kazania: ",
+      "sermons_with_audios": "Kazania z audio: "
+    },
+    "group": {
+      "available": "Dostępne",
+      "downloaded": "Pobrane",
+      "downloading": "Pobieranie",
+      "updateAvailable": "Dostępna aktualizacja"
+    },
+    "title": "Języki"
+  },
+  "sermons": {
+    "list": {
+      "row": {
+        "minutes": "{} minuty"
+      }
+    },
+    "select_translation_dialog_title": "Wybierz tłumaczenie",
+    "filtering": {
+      "title": "Filtrowanie",
+      "add_filter": "Dodaj filtr",
+      "dropdown_hint": "Kliknij, aby wybrać wartość",
+      "empty_view_title": "Brak filtrów",
+      "empty_view_subtitle": "Dotknij przycisku '+', aby dodać filtr",
+      "summary": {
+        "zero": "Brak kazań",
+        "one": "1 kazanie",
+        "other": "Kazania: {}"
+      },
+      "filter_types": {
+        "by_audible": "Według dostępności audio",
+        "by_cities": "Według miasta",
+        "by_countries": "Według kraju",
+        "by_day_of_week": "Według dnia tygodnia",
+        "by_day": "Według dnia miesąca",
+        "by_first_letter": "Według pierwszej litery",
+        "by_location": "Według lokalizacji",
+        "by_minutes": "Według czasu trwania",
+        "by_month": "Według miesiąca",
+        "by_series": "Według serii",
+        "by_state": "Według stanu",
+        "by_translator": "Według tłumacza",
+        "by_year": "Według roku"
+      },
+      "audible": {
+        "downloaded": "Pobrane",
+        "with": "Z audio",
+        "without": "Bez audio"
+      },
+      "daylights": {
+        "afternoon": "Dzień",
+        "breakfast": "Śniadanie",
+        "evening": "Wieczór",
+        "morning": "Poranek",
+        "sunrise": "Wschód słońca",
+        "unknown": "Nieznane"
+      },
+      "days": {
+        "monday": "Pon",
+        "tuesday": "Wt",
+        "wednesday": "Śr",
+        "thursday": "Czw",
+        "friday": "Pią",
+        "saturday": "Sob",
+        "sunday": "Nie"
+      },
+      "monthes": {
+        "january": "Sty",
+        "february": "Lut",
+        "march": "Mar",
+        "april": "Kwi",
+        "may": "Maj",
+        "june": "Cze",
+        "july": "Lip",
+        "august": "Sie",
+        "september": "Wrz",
+        "october": "Paź",
+        "november": "Lis",
+        "december": "Gru"
+      }
+    },
+    "settings": {
+      "open_lastest_position": "Zawsze otwieraj kazania od pozycji startowej",
+      "show_original_title": "Pokazuj oryginalne tytuły kazań",
+      "sermon_list": {
+        "title": "Lista kazań",
+        "date_formatting": "Formatowanie daty kazania",
+        "title_formatting": "Formatowanie tytułu kazania"
+      },
+      "translations": {
+        "title": "Tłumaczenia",
+        "show_translations_dialog": "Pokaż dialog 'Wybierz tłumaczenia'",
+        "preferable_translator": "Preferowane tłumaczenie"
+      }
+    },
+    "title": "Kazania",
+    "filter_header": {
+      "one": "{} filtr jest zastosowany",
+      "other": "{} filtry są zastosowane"
+    }
+  },
+  "search": {
+    "filtering": {
+      "title": "Filtrowanie wyszukiwania"
+    },
+    "find_all_words": "Wszystkie podane słowa",
+    "find_any_words": "Przynajmniej jedno z podanych słów",
+    "find_exact_match": "Dokładne dopasowanie",
+    "word_variation": "Wariacje słów",
+    "exact_words": "Dokładne słowa",
+    "hits": "Trafeń: {}",
+    "results": "Wyniki: {}",
+    "term_empty_content_hint": "Wpisz wyszukiwaną fraze powyżej",
+    "term_initial_content_hint": "Kliknij przycisk wyszukiwania powyżej",
+    "term_text_field_hint": "Wyszukiwana fraza",
+    "title": "Wyszukiwarka"
+  },
+  "sorting": {
+    "by_date_asc": "Według daty rosnąco",
+    "by_date_desc": "Według daty malejąco",
+    "by_date": "Według daty",
+    "by_default": "Domyślne sortowanie",
+    "by_duration_asc": "Według czasu trwania rosnąco",
+    "by_duration_desc": "Według czasu trwania malejąco",
+    "by_highlights_count_asc": "Według liczby zaznaczeń rosnąco",
+    "by_highlights_count_desc": "Według liczby zaznaczeń malejąco",
+    "by_hits": "Według ilości wyników",
+    "by_name_asc": "Według nazwy rosnąco",
+    "by_name_desc": "Według nazwy malejąco",
+    "by_notes_count_asc": "Według liczby notatek rosnąco",
+    "by_notes_count_desc": "Według liczby notatek malejąco",
+    "by_relevance": "Według trafności",
+    "by_sermon_date_asc": "Według daty kazania rosnąco",
+    "by_sermon_date_desc": "Według daty kazania malejąco",
+    "by_sermon_title_asc": "Według tytułu kazania rosnąco",
+    "by_sermon_title_desc": "Według tytułu kazania malejąco",
+    "newest": "Najpierw najnowsze",
+    "oldest": "Najpierw najstarsze"
+  },
+  "reader": {
+    "original": "Oryginał",
+    "end_of_sermon": "Koniec kazania",
+    "audio": {
+      "item_menu": "Audio #{}",
+      "download_audio": "Pobierz i odtwarzaj",
+      "stream_audio": "Odtwarzaj bez pobrania",
+      "already_playing_alert": "Te audio jest już odtwarzana"
+    },
+    "context_menu": {
+      "highlight": "Zaznacz",
+      "share": "Udostępnij",
+      "add_note": "Dodaj notatkę",
+      "copy": "Kopiuj",
+      "copy_to_note": "Skopiuj do notatki"
+    },
+    "settings": {
+      "app_bar": {
+        "title": "Pasek Nawigacyjny",
+        "button_visibility": {
+          "title": "Widoczność Przycisków",
+          "button": {
+            "audio": "Odtwórz Audio",
+            "bookmark": "Utwórz Zakładkę",
+            "save_as": "Zapisz jako",
+            "navigate": "Nawigacja",
+            "search": "Szukaj",
+            "variants": "Warianty Kazania",
+            "settings": "Ustawienia"
+          }
+        }
+      },
+      "content_width": "Szerokość tekstu",
+      "font_sample": "A wiara jest gruntem tych rzeczy, których się spodziewamy i dowodem rzeczy niewidzialnych.",
+      "font_size": "Rozmiar czcionki",
+      "font": "Czcionka",
+      "line_padding": "Odstęp między liniami",
+      "max": "max",
+      "min": "min",
+      "paragraph_padding": "Odstęp między akapitami",
+      "sermon_layout": "Układ tekstu kazania",
+      "system_font": "Domyślna czcionka",
+      "switch_to_dark_mode": "Przełącz na tryb ciemny",
+      "switch_to_light_mode": "Przełącz na tryb jasny",
+      "tap_to_hide": "Kliknij, aby ukryć",
+      "tap_to_show": "Kliknij, aby pokazać",
+      "text_indent": "Wcięcie tekstu",
+      "theme": "Temat"
+    },
+    "share": {
+      "quote_from": "Cytat z {}"
+    },
+    "select_paragraph": {
+      "title": "Wybierz akapit"
+    }
+  },
+  "bookmarks": {
+    "title": "Zakładki",
+    "name_placeholder": "Bez nazwy",
+    "empty": "Lista zakładek jest pusta",
+    "created_message": "Nowa zakładka została utworzona",
+    "delete": {
+      "all": {
+        "confirmation": {
+          "title": "Chcesz usunąć wszystkie zakładki dla wybranego kazania?",
+          "description": "Wszystkie zakładki będą usunięte, nie będzie się dało je przywrócić"
+        }
+      }
+    },
+    "create": {
+      "dialog": {
+        "title": "Nowa zakładka",
+        "hint": "Podaj nazwe zakładki"
+      }
+    }
+  },
+  "pdf": {
+    "save_as": {
+      "button": "Zapisz jako",
+      "description": "Proszę wybrać plik wyjściowy:"
+    },
+    "components": {
+      "search": {
+        "header": "Wyniki wyszukiwania dla: {}"
+      }
+    },
+    "config": {
+      "title": "Konfiguracja",
+      "page_format": "Format strony",
+      "generate": {
+        "html": "Generuj HTML",
+        "pdf": "Generuj PDF"
+      },
+      "other": {
+        "title": "Inne ustawienia",
+        "add_footer": "Dodaj stopkę",
+        "add_header": "Dodaj nagłówek",
+        "show_highlights": "Pokaż wyróżnienia"
+      },
+      "footer": "Strona {} - Little Storehouse",
+      "margin": {
+        "title": {
+          "page": "Marginesy strony",
+          "paragraph": "Marginesy akapitu"
+        },
+        "top": "Górny",
+        "bottom": "Dolny",
+        "left": "Lewy",
+        "right": "Prawy",
+        "paragraph": "Akapity",
+        "lines": "Linie"
+      }
+    }
+  },
+  "auth": {
+    "account": {
+      "title": "Konto",
+      "email": "Adres e-mail: {}",
+      "info": "Twoje zaznaczenia, notatki, zakładki oraz historia otwieranych kazań są synchronizowane na urządzeniach powiązanych z Twoim kontem.",
+      "delete": {
+        "title": "Usuń konto",
+        "alert": {
+          "title": "Usunąć konto?",
+          "desc": "Czy na pewno chcesz usunąć swoje konto? Prosimy zauważyć, że wszystkie powiązane dane, w tym zaznaczenia, notatki, zakładki oraz historia przeglądania, zostaną trwale usunięte i nie będą mogły zostać odzyskane."
+        }
+      },
+      "sign_out": {
+        "title": "Wyloguj się",
+        "alert": {
+          "title": "Wylogować się?",
+          "desc": "Czy na pewno chcesz się wylogować? Wybierz urządzenia, z których chcesz się wylogować."
+        }
+      }
+    },
+    "create_account": {
+      "info": "Tworząc konto, możesz synchronizować zaznaczenia, notatki, zakładki oraz historię otwieranych kazań na wszystkich urządzeniach powiązanych z Twoim kontem.",
+      "supported_platform": "Jakie platformy są obsługiwane?",
+      "title": "Utwórz konto",
+      "validation": {
+        "email_empty": "Adres e-mail nie może być pusty",
+        "email_incorrect": "Adres e-mail jest nieprawidłowy",
+        "password_empty": "Hasło nie może być puste",
+        "password_too_short": "Hasło jest za krótkie"
+      }
+    },
+    "form": {
+      "email": "Adres e-mail",
+      "password": "Hasło (min. 6 znaków)",
+      "new_password": "Nowe hasło (min. 6 znaków)",
+      "submit": "Utwórz konto"
+    },
+    "reset_password": {
+      "title": "Zresetuj swoje hasło",
+      "error": {
+        "user_not_found": "Nie znaleźliśmy konta powiązanego z podanym adresem e-mail. Proszę sprawdzić swój e-mail i spróbować ponownie."
+      },
+      "form": {
+        "submit": "Wyślij link resetujący",
+        "info": "Wyślemy Ci link do zresetowania hasła."
+      },
+      "completed": {
+        "info": {
+          "1": "* Twój nowy link do resetowania hasła jest w drodze.",
+          "2": "* Wyślemy e-mail na adres {}.",
+          "3": "* Po prostu postępuj zgodnie z instrukcjami w e-mailu, aby zresetować swoje hasło.",
+          "4": "* Pamiętaj, aby sprawdzić folder ze spamem lub niechcianą pocztą, jeśli nie widzisz e-maila w skrzynce odbiorczej."
+        },
+        "submit": "Powrót do logowania"
+      }
+    },
+    "sign_in": {
+      "title": "Zaloguj się",
+      "forgot_password": "Zapomniałeś hasła?",
+      "migration": {
+        "title": "Powiąż istniejące {} na tym urządzeniu z tym kontem",
+        "components": {
+          "highlights": "zaznaczenia",
+          "notes": "notatki",
+          "bookmarks": "zakładki",
+          "history ": "historie otwieranych kazań"
+        }
+      },
+      "info": "Logując się do swojego konta, zsynchronizujesz zaznaczenia, notatki, zakładki oraz historię przeglądania na wszystkich urządzeniach powiązanych z Twoim kontem."
+    },
+    "errors": {
+      "general": "Coś poszło nie tak. Jeśli błąd będzie się powtarzał, spróbuj ponownie za kilka minut.",
+      "sign_in": {
+        "incorrect_credentials": "Wpisałeś zły adres e-mail lub hasło. Sprawdź literówki i spróbuj ponownie."
+      },
+      "sign_up": {
+        "email_taken": "Istnieje już konto zarejestrowane na ten adres e-mail."
+      }
+    }
+  },
+  "purchase": {
+    "error": {
+      "fetching": "Coś poszło nie tak i nie można teraz pobrać listy subskrypcji. Proszę spróbuj później.",
+      "purchasing": "Płatność nie powiódła się"
+    },
+    "already_active": "Masz już aktywną subskrypcję!",
+    "monthly_price": "{}/miesiąc",
+    "terms_of_use": "Warunki korzystania",
+    "privacy_policy": "Polityka prywatności",
+    "instruction": {
+      "1": {
+        "title": "Aby wyświetlić swoją subskrypcję i zarządzać nią:",
+        "android": {
+          "1": "1. Otwórz aplikację Ustawienia na swoim urządzeniu i dotknij Google, a następnie Zarządzaj swoim kontem Google.",
+          "2": "2. U góry kliknij Płatności i subskrypcje.",
+          "3": "3. Kliknij Zarządzaj subskrypcjami.",
+          "4": "4. Aby zobaczyć więcej szczegółów, wybierz element."
+        },
+        "iOS": {
+          "1": "Przejdź do Ustawienia > [Twoje imię] > Subskrypcje.",
+          "2": "Wykonaj dowolną z poniższych czynności:",
+          "3": "Zmień istniejącą subskrypcję.",
+          "4": "Odnów wygasłą subskrypcję.",
+          "5": "Włącz potwierdzenia odnowienia."
+        }
+      },
+      "2": {
+        "title": "Aby anulować subskrypcję:",
+        "iOS": {
+          "2": "Stuknij subskrypcję, a następnie stuknij opcję Anuluj subskrypcję lub Anuluj wszystkie usługi."
+        }
+      }
+    }
+  },
+  "useful_links": {
+    "title": "Przydatne linki",
+    "link": {
+      "1": {
+        "title": "Spoken Word in Pictures",
+        "desc": "Pan przez kilka lat prowadził mnie do tworzenia cytatów z kazań Proroka w postaci obrazów i udostępniania ich na stronie internetowej \"Spoken Word in Pictures\".\nTwój brat, Mikaël"
+      }
+    }
+  },
+  "restore_purchases": {
+    "cta": "Przywróć zakupy",
+    "success": {
+      "title": "Przywracanie zakończone sukcesem",
+      "desc": "Twoje zakupy zostały pomyślnie przywrócone. Teraz masz dostęp do swoich subskrypcji."
+    },
+    "error": {
+      "failed": "Wystąpił błąd podczas przywracania zakupów. Spróbuj ponownie później.",
+      "unexpectedError": "Wystąpił nieoczekiwany błąd. Spróbuj ponownie.",
+      "no_subscriptions": "Nie znaleziono żadnych subskrypcji do przywrócenia."
+    }
+  },
+  "guards": {
+    "account_migration": {
+      "title": "Migracja konta",
+      "info": {
+        "1": "Aby kontynuować korzystanie z aplikacji, musimy przenieść Twoje konto i powiązane dane.",
+        "2": {
+          "a": "Wprowadź swoje obecne hasło lub utwórz nowe, a następnie naciśnij 'Migracja'.",
+          "b": "Wprowadź swój email oraz obecne hasło, a następnie naciśnij 'Migracja'."
+        },
+        "3": "Jeśli już przeniosłeś swoje konto na innym urządzeniu, zamiast tego użyj 'Zaloguj się'.",
+        "4": "Jeśli napotkasz jakiekolwiek problemy lub utratę danych podczas migracji, skontaktuj się ze mną mailowo po pomoc."
+      },
+      "cta": "Migracja",
+      "error": {
+        "migration_already_done": "Wygląda na to, że zakończyłeś migrację na innym urządzeniu. Naciśnij przycisk Ponów próbę, podaj swoje hasło, a następnie naciśnij przycisk Zaloguj się, aby kontynuować."
+      },
+      "status": {
+        "success": {
+          "title": "Migracja zakończona sukcesem",
+          "message": "Twoje konto zostało pomyślnie zmigrowane. Naciśnij przycisk kontynuuj, aby zacząć korzystać z aplikacji."
+        },
+        "failure": {
+          "title": "Migracja nieudana"
+        },
+        "in_progress": {
+          "title": "Migracja w toku",
+          "message": "Proszę nie zamykać aplikacji, dopóki migracja nie zostanie ukończona."
+        }
+      }
+    },
+    "force_upgrade": {
+      "title": "Wymagana aktualizacja",
+      "description": "Aby dalej korzystać z Little Storehouse, zaktualizuj do najnowszej wersji. Ta aktualizacja zawiera ważne ulepszenia i nowe funkcje, które poprawiają Twoje wrażenia.",
+      "cta": "Zaktualizuj"
+    }
+  },
+  "about": {
+    "app_info": {
+      "menu": "O aplikacji Little Storehouse",
+      "line": {
+        "1": "Little Storehouse to zbiór kazań Williama Marriona Branhama w różnych językach.",
+        "2": "Aplikacja oferuje bogate filtrowanie kazań według daty i wielu innych parametrów.",
+        "3": "Dostępne jest również wyszukiwanie pełnotekstowe w treści kazań.",
+        "4": "Wraz z tekstem kazań , dostępne są nagrania audio.",
+        "5": "Little Storehouse to projekt niekomercyjny.",
+        "6": "Nie rości sobie żadnych praw do tekstów kazań ani nagrań dźwiękowych użytych w aplikacji."
+      }
+    },
+    "available_platforms": {
+      "title": "Wspierane platformy",
+      "supported_platform": "Aplikacja jest dostępna w następujących sklepach:",
+      "additional_platforms": "Aplikacja jest również dostępna dla innych rodzajów systemów operacyjnych."
+    },
+    "gratitudes": {
+      "title": "Podziękowania",
+      "line": {
+        "1": {
+          "a": "Rollin Nkalani",
+          "b": "Przygotowanie francuskich tekstów kazań"
+        },
+        "2": {
+          "a": "Boanerges Mbamvu",
+          "b": "Tłumaczenie aplikacji na język francuski, pomysły, testowanie, motywacja"
+        },
+        "3": {
+          "a": "Godson PEYA ESSONGA",
+          "b": "Tłumaczenie aplikacji na język francuski, pomysły, testowanie"
+        },
+        "4": {
+          "a": "Rostislav Kuzmenko",
+          "b": "Pomoc w przygotowaniu kazań w języku rosyjskim"
+        },
+        "5": {
+          "a": "Mateusz Warzybok",
+          "b": "Pomoc w przygotowaniu kazań w języku polskim"
+        },
+        "6": {
+          "a": "Marek Szturc",
+          "b": "Pomoc w przygotowaniu kazań w języku czeskim"
+        },
+        "7": {
+          "a": "Ľuboš Horník",
+          "b": "Pomoc w przygotowaniu kazań w języku słowackim"
+        },
+        "8": {
+          "a": "branham.org",
+          "b": "Teksty i nagrania audio w języku angielskim, teksty i nagrania audio kazań w różnych językach"
+        },
+        "9": {
+          "a": "branham.fr",
+          "b": "Francuskie teksty i audio"
+        },
+        "10": {
+          "a": "messagehub.info",
+          "b": "Teksty i nagrania audio kazań w różnych językach"
+        },
+        "11": {
+          "a": "sluchaj.branham.pl",
+          "b": "Polskie audio"
+        },
+        "12": {
+          "a": "branham.ru",
+          "b": "Rosyjskie teksty i audio"
+        },
+        "13": {
+          "a": "shekinahgospel.org/shekinah-pub",
+          "b": "Francuskie teksty"
+        },
+        "14": {
+          "a": "eagleword.online",
+          "b": "Teksty w języku czeskim i słowackim, audio w języku słowackim"
+        }
+      }
+    },
+    "contacts": "Kontakty",
+    "project_support": {
+      "cta": "Wesprzyj projekt",
+      "menu": "Wsparcie projektu",
+      "title": "Subskrypcja wsparcia projektu",
+      "desc": "Wesprzyj nasz projekt subskrypcją! Twój wkład pomaga nam utrzymywać i ulepszać aplikację. Jeśli nie chcesz subskrybować, po prostu zamknij ten ekran. Dziękuję za Twoje wsparcie!"
+    }
+  },
+  "app_usage_tips": {
+    "menu": "Wskazówki korzystania z aplikacji",
+    "title": "Wskazówki korzystania z aplikacji",
+    "group": {
+      "1": {
+        "title": "Odtwarzacz audio",
+        "tip": {
+          "1": {
+            "title": "Jak przywrócić odtwarzacz audio",
+            "line": {
+              "1": "Aby przywrócić odtwarzacz audio:",
+              "2": "1. Gdy odtwarzacz jest zminimalizowany, w prawym dolnym rogu pojawia się przycisk 'Pauza'",
+              "3": "2. Naciśnij i przytrzymaj przycisk 'Pauza', aby przywrócić odtwarzacz audio."
+            }
+          },
+          "2": {
+            "title": "Jak usunąć pobrany plik audio",
+            "line": {
+              "1": "Pobrane audio można usunąć na dwa sposoby: klikając przycisk usuwania w odtwarzaczu, a takoż filtrując kazania z pobranymi audio.",
+              "2": "Aby usunąć dźwięk w Odtwarzaczu audio:",
+              "3": "1. Uruchom odtwarzacz audio na stronie kazania",
+              "4": "2. Naciśnij przycisk usuwania (jeśli jest dostępny)",
+              "5": "Aby usunąć dźwięk z listy kazań:",
+              "6": "1. Naciśnij przycisk 'Filtry'",
+              "7": "2. Naciśnij przycisk 'Dodaj'",
+              "8": "3. Wybierz opcję 'Według dostępności audio'",
+              "9": "4. Wybierz 'Pobrane'",
+              "10": "5. Naciśnij przycisk 'Wstecz'",
+              "11": "6. Teraz możesz usunąć pobrane audio, dotykając przycisków 'Usuń'"
+            }
+          }
+        }
+      },
+      "2": {
+        "title": "Zakładki",
+        "tip": {
+          "1": {
+            "title": "Jak dodać zakładkę z nazwą",
+            "line": {
+              "1": "Aby dodać zakładkę z nazwą:",
+              "2": "1. Przejdź do strony Kazania, do której chcesz dodać zakładkę.",
+              "3": "2. Naciśnij i przytrzymaj przycisk 'Dodaj zakładkę'.",
+              "4": "3. Wpisz żądaną nazwę zakładki w polu tekstowym okna dialogowego.",
+              "5": "4. Naciśnij przycisk 'Zapisz', aby zakończyć dodawanie zakładki."
+            }
+          }
+        }
+      },
+      "3": {
+        "title": "Zaznaczenia",
+        "tip": {
+          "1": {
+            "title": "Jak edytować zaznaczony tekst na stronie kazania",
+            "line": {
+              "1": "Aby edytować zaznaczony tekst na stronie kazania, wykonaj następujące kroki:",
+              "2": "1. Kliknij zaznaczony tekst, który chcesz edytować.",
+              "3": "2. Na dolnym pasku możesz zmienić/edytować kolor, dodać nowy kolor lub usunąć zaznaczenie."
+            }
+          },
+          "2": {
+            "title": "Jak edytować kolor",
+            "line": {
+              "1": "Edycję kolorów można przeprowadzić na trzy sposoby: za pomocą dolnego paska edycji wyróżnienia, paska nawigacji kolorów lub strony kolorów.",
+              "2": "Aby edytować z dolnego paska edycji zaznaczeń:",
+              "3": "1. Kliknij zaznaczony tekst na stronie Kazania lub naciśnij i przytrzymaj zaznaczenie na liście zaznaczeń.",
+              "4": "2. Naciśnij i przytrzymaj kafelek Koloru.",
+              "5": "3. Wybierz nową wartość koloru i naciśnij przycisk 'Zapisz'.",
+              "6": "Aby edytować z paska nawigacji kolorów:",
+              "7": "1. Naciśnij kafelek Zaznaczenia na stronie głównej.",
+              "8": "2. Naciśnij i przytrzymaj kafelek koloru na pasku nawigacji kolorów.",
+              "9": "3. Wybierz nową wartość koloru i naciśnij przycisk 'Zapisz'.",
+              "10": "Aby edytować na stronie kolorów:",
+              "11": "1. Naciśnij kafelek Zaznaczenia na stronie głównej.",
+              "12": "2. Naciśnij przycisk Edytuj kolory.",
+              "13": "3. Możesz zmienić nazwę lub wartość koloru, a także usunąć kolor."
+            }
+          },
+          "3": {
+            "title": "Jak edytować zaznaczenie na liście zaznaczeń",
+            "line": {
+              "1": "Możesz uzyskać dostęp do dolnego paska edycji, naciskając i przytrzymując element Listy zaznaczeń.",
+              "2": "Aby edytować podświetlenie:",
+              "3": "1. Stuknij w kafelek Najciekawsze na stronie głównej.",
+              "4": "2. Naciśnij i przytrzymaj element listy zaznaczeń.",
+              "5": "3. Edytuj lub usuń zaznaczenie, korzystając z opcji na dolnym pasku."
+            }
+          }
+        }
+      },
+      "4": {
+        "title": "Nawigacja",
+        "tip": {
+          "1": {
+            "title": "Jak zmienić rozmiar podzielonego widoku",
+            "line": {
+              "1": "Układ podzielonego widoku jest dostępny dla tabletów, zapewniając możliwość zmiany rozmiaru proporcji każdej ze stron.",
+              "2": "Aby zmienić rozmiar podzielonego widoku:",
+              "3": "1. Naciśnij i przytrzymaj pasek podziału widoku podzielonego.",
+              "4": "2. Przeciągnij w lewo lub w prawo, aby dostosować rozmiar.",
+              "5": "Uwaga: istnieje minimalny rozmiar, jaki może mieć widok podzielony dla każdej strony."
+            }
+          },
+          "2": {
+            "title": "Jak zamknąć lub przywrócić widok podzielonego widok",
+            "line": {
+              "1": "Układ widoku podzielonego jest dostępny dla tabletów i umożliwia zamknięcie lub przywrócenie każdej ze stron widoku podzielonego.",
+              "2": "Aby zamknąć lewą lub prawą stronę widoku podzielonego:",
+              "3": "1. Naciśnij przycisk Podziel widok, aby zamknąć prawą stronę.",
+              "4": "2. Naciśnij ponownie przycisk Podziel widok, aby przełączyć widoczność obu stron.",
+              "5": "3. Naciśnij i przytrzymaj przycisk Podziel widok, aby przywrócić widoczność obu stron."
+            }
+          }
+        }
+      },
+      "5": {
+        "title": "Notatki",
+        "tip": {
+          "1": {
+            "title": "Jak dodać notatkę do wiersza kazania",
+            "line": {
+              "1": "Aby dodać notatkę do wiersza kazania:",
+              "2": "1. Wybierz tekst na stronie Kazania",
+              "3": "2. Wybierz opcję 'Dodaj notatkę' w menu kontekstowym",
+              "4": "3. Podaj treść notatki i naciśnij przycisk 'Zapisz'"
+            }
+          },
+          "2": {
+            "title": "Jak otworzyć notatkę na stronie kazania",
+            "line": {
+              "1": "Aby otworzyć notatkę na stronie kazania:",
+              "2": "1. Znajdź wiersz kazania z ikoną notatki na końcu.",
+              "3": "2. Naciśnij ikonę notatki, aby otworzyć widok podglądu notatki."
+            }
+          },
+          "3": {
+            "title": "Jak skopiować zaznaczony tekst do notatki",
+            "line": {
+              "1": "Aby skopiować zaznaczony tekst do notatki:",
+              "2": "1. Wybierz tekst na stronie Kazania",
+              "3": "2. Wybierz opcję 'Kopiuj do notatki' w menu kontekstowym",
+              "4": "3. Wybierz lub utwórz notatkę",
+              "5": "4. W razie potrzeby wprowadź zmiany w notatce",
+              "6": "5. Kliknij przycisk 'Zapisz'"
+            }
+          }
+        }
+      },
+      "6": {
+        "title": "Strona kazania",
+        "tip": {
+          "1": {
+            "title": "Jak otworzyć tłumaczenie równoległe",
+            "line": {
+              "1": "Aby otworzyć tłumaczenie równoległe:",
+              "2": "1. Naciśnij przycisk tłumaczenia na Stronie Kazania.",
+              "3": "2. Naciśnij i przytrzymaj wpis tłumaczenia na liście.",
+              "4": "3. (Opcjonalnie) Naciśnij i przeciągnij pasek podziału, aby dostosować rozmiar widoków."
+            }
+          },
+          "2": {
+            "title": "Jak zamknąć tłumaczenie równoległe",
+            "line": {
+              "1": "Aby zamknąć tłumaczenie równoległe:",
+              "2": "1. Naciśnij i przytrzymaj przycisk podziału na dole."
+            }
+          },
+          "3": {
+            "title": "Jak wejść/wyjść z trybu pełnoekranowego",
+            "line": {
+              "1": "Aby wejść lub wyjść z trybu pełnoekranowego:",
+              "2": "1. Kliknij dwukrotnie tekst kazania."
+            }
+          }
+        }
+      },
+      "7": {
+        "title": "Lista kazań",
+        "tip": {
+          "1": {
+            "title": "Jak otworzyć kazanie na ostatnio otwartej pozycji",
+            "line": {
+              "1": "Aby kazanie było otwarte na pozycji ostatniego czytania:",
+              "2": "1. Naciśnij przycisk Ustawienia na Liście Kazań.",
+              "3": "2. Wyłącz opcję 'Zawsze otwieraj kazania w pozycji początkowej'.",
+              "4": "3. Włącz opcję żeby kazanie było otwierane w pozycji początkowej."
+            }
+          }
+        }
+      },
+      "8": {
+        "title": "Wyszukiwanie",
+        "tip": {
+          "1": {
+            "title": "Jak skopiować wynik wyszukiwania",
+            "line": {
+              "1": "Aby skopiować wynik wyszukiwania do schowka",
+              "2": "1. Przytrzymaj wynik wyszukiwania",
+              "3": "2. Wybierz opcję „Kopiuj” w menu kontekstowym",
+              "4": "Aby skopiować wynik wyszukiwania do notatki",
+              "5": "1. Przytrzymaj wynik wyszukiwania",
+              "6": "2. Wybierz opcję „Kopiuj do notatki” w menu kontekstowym"
+            }
+          }
+        }
+      }
+    }
+  }
+}
